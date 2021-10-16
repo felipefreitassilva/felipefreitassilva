@@ -8,7 +8,6 @@
 - 🤔 I’m looking for help with selling online
 
 <div>
-    <a href="https://github.com/felipefreitassilva">
     <h2>Linguagens conhecidas: </h2>
     <div style="display: inline_block">
       <img align="center" alt="Logo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -20,6 +19,7 @@
       <img align="center" alt="Logo-C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
       <img align="center" alt="Logo-C++" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg">
     </div><br>
+    <a href="https://github.com/felipefreitassilva">
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipefreitassilva&layout=compact&langs_count=7&theme=dracula"/>
     </a>
 </div>
