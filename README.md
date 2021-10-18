@@ -3,7 +3,7 @@
     <p>Tenho 18 anos e estudo programação no meu tempo livre, comecei desenvolvendo sites simples e agora estou estudando React Native para programar aplicativos.</p>
 </div>
 
-<div>
+<div align="center">
     <h2>Linguagens conhecidas: </h2>
     <div style="display: inline_block">
         <a href="https://pt.wikipedia.org/wiki/HTML">
@@ -25,7 +25,7 @@
     </div><br>
     <a href="https://github.com/felipefreitassilva">
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipefreitassilva&layout=compact&langs_count=7&theme=dracula"/>
-    </a>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felipefreitassilva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/></a>
 </div>
 
 <div>
