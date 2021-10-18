@@ -1,6 +1,6 @@
 <div>
     <h1>Olá! Me chamo Felipe👋</h1>
-    <p>Tenho 18 anos e estudo programação no meu tempo livre, comecei desenvolvendo sites simples e agora estou estudando React Native para programar aplicativos.</p>
+    <p>Tenho 18 anos e estudo programação no meu tempo livre. Comecei desenvolvendo sites simples com HTML e CSS e agora estou estudando React Native para programar aplicativos.</p>
 </div>
 
 <div align="center">
