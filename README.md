@@ -1,6 +1,6 @@
 <div>
     <h1>Olá! Me chamo Felipe👋</h1>
-    <p>Tenho 18 anos e estudo Engenharia de Software na PUC-RS desde 2022, tendo iniciado os estudos de programação 2 anos antes individualmente. Comecei desenvolvendo sites simples com HTML e CSS e no momento estou estudando React Native para programar aplicativos.</p>
+    <p>Sou um estudante de Engenharia de Software na PUC-RS desde 2022, tendo iniciado os estudos de programação 2 anos antes individualmente. Comecei desenvolvendo sites simples com HTML e CSS e no momento estou estudando principalmente Java para a faculdade e React Native para programar aplicativos.</p>
 </div>
 
 <div align="center">
