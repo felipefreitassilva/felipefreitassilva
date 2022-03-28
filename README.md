@@ -20,6 +20,8 @@
         <img align="center" alt="Logo-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"></a>
         <a href="https://reactjs.org/">
         <img align="center" alt="Logo-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
+        <a href="https://www.java.com/">
+        <img align="center" alt="Logo-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/java.svg"></a>
         <a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programação)">
         <img align="center" alt="Logo-C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"></a>
         <a href="https://pt.wikipedia.org/wiki/C%2B%2B">
