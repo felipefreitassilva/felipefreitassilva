@@ -22,10 +22,10 @@
         <img align="center" alt="Logo-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
         <a href="https://www.java.com/">
         <img align="center" alt="Logo-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/java-plain.svg"></a>
-        <a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programação)">
+        <!--<a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programação)">
         <img align="center" alt="Logo-C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"></a>
         <a href="https://pt.wikipedia.org/wiki/C%2B%2B">
-        <img align="center" alt="Logo-C++" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"></a>
+        <img align="center" alt="Logo-C++" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"></a>-->
     </div><br>
     <a href="https://github.com/felipefreitassilva">
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipefreitassilva&layout=compact&langs_count=7&theme=dracula"/>
