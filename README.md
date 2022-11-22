@@ -1,6 +1,6 @@
 <div>
     <h1>Olá! Me chamo Felipe👋</h1>
-    <p>Sou um estudante de Engenharia de Software na PUC-RS desde 2022, tendo iniciado os estudos de programação 2 anos antes individualmente. Comecei desenvolvendo sites simples com HTML e CSS e no momento estou estudando principalmente Java para a faculdade e React Native para programar aplicativos.</p>
+    <p>Sou um estudante de Engenharia de Software na PUC-RS desde 2022, tendo iniciado os estudos de programação 2 anos antes individualmente. Comecei desenvolvendo sites simples com HTML e CSS e no momento estou estudando principalmente React/Typescript para o Front e Node/MongoDB para o Back, além de Java para a faculdade.</p>
 </div>
 
 <div align="center">
