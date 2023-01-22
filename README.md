@@ -33,7 +33,7 @@
             <img align="center" alt="Logo-Figma" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
         </a>
     </div><br>
-    <a href="https://github.com/felipefreitassilva">
+    <a href="https://github.com/felipefreitassilva?tab=repositories" target="_blank">
     <img height="180em" src="https://felipefreitassilva-github-readme-stats.vercel.app/api/top-langs/?username=felipefreitassilva&layout=compact&langs_count=7&theme=dracula" alt="" />
     <img height="180em" src="https://felipefreitassilva-github-readme-stats.vercel.app/api?username=felipefreitassilva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="" /></a>
 </div>
