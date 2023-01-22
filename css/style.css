@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	font-family: 'Shippori Mincho', serif;
+}
+
+main > div,
+footer {
+	padding: 1% 8% 2% 4%;
+}
+
+div.generalInfo {
+	padding-bottom: 0;
+}
+
+div.generalInfo h1 {
+	margin: 0;
+	padding: 20px 0;
+}
+
+div.generalInfo div {
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+div.generalInfo div.social {
+	display: block;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+address {
+	font-style: normal;
+}
+
+div div.title {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	margin: 0;
+}
+
+div.generalInfo img {
+	width: 30px;
+}
+
+img {
+	width: 40px;
+	margin: 0 10px 0 3.3px;
+}
