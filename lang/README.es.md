@@ -1,9 +1,9 @@
 <div>
-    <h1>Olá! Me chamo Felipe👋</h1>
-    <p>Sou apaixonado por tecnologia, principalmente por desenvolvimento Front End. Iniciei meus estudos em 2020, durante o Ensino Médio, e desde então estudei diversas linguagens e desenvolvi alguns projetos que podem ser vistos no <a href="https://github.com/felipefreitassilvalearning" target="_blank">meu perfil de aprendizado (/felipefreitassilvalearning)</a> aqui no Github. Dentre as diversas linguagens por que passei, seja em cursos onlines, projetos pessoais ou durante minhas aulas de Engenharia de Software na <a href="https://www.pucrs.br/politecnica/curso/engenharia-de-software/" target="_blank">PUCRS</a>, desenvolvi um grande apreço por React, seja para desenvolvimento Mobile ou Web, e agora estou aprendendo Typescript e Node.js para aprimorar meus projetos.</div>
+    <h1>¡Hola! Soy Felipe 👋</h1>
+    <p>Soy un apasionado de la tecnología, principalmente del desarrollo Front End. Comencé mis estudios en 2020, durante la secundaria, y desde entonces he estudiado diferentes idiomas y desarrollado algunos proyectos que se pueden ver en <a href="https://github.com/felipefreitassilvalearning" target="_blank">mi perfil de aprendizaje (/felipefreitassilvalearning)</a> aquí en Github. Entre los diferentes lenguajes por los que he pasado, ya sea en cursos online, proyectos personales o durante mis clases de Ingeniería de Software en la <a href="https://www.pucrs.br/politecnica/curso/engenharia-de-software/" target="_blank">PUCRS</a>, desarrollé un gran aprecio por React, ya sea para desarrollo móvil o web, y ahora estoy aprendiendo Typescript y Node.js para mejorar mis proyectos.</div>
 
 <div align="center">
-    <h2>Linguagens conhecidas: </h2>
+    <h2>Lenguajes de programación conocidos: </h2>
     <div style="display: inline_block">
         <a href="https://pt.wikipedia.org/wiki/HTML">
             <img align="center" alt="Logo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -39,7 +39,7 @@
 </div>
 
 <div>
-    <h2>Contate-me: </h2>
+    <h2>Contáctame: </h2>
     <a href="https://www.github.com/felipefreitassilvalearning/"><img src="https://img.shields.io/badge/GitHub-4F5459?style=for-the-badge&logo=github&logoColor=white" /></a>
     <a href="https://www.linkedin.com/in/felipefreitassilva/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
     <a href="mailto:eu.felipefreitassilva@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -49,6 +49,5 @@
     <h2>Prefer to read in another language?</h2>
     [![[en](lang\flags\us.svg)](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.en.md)
     [![[de](lang\flags\de.svg)](https://img.shields.io/badge/lang-de-yellow.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.de.md)
-    [![[es](lang\flags\es.svg)](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.es.md)
     [![[pt-br](lang\flags\br.svg)](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.md)
 </div>
