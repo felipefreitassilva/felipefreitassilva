@@ -46,10 +46,14 @@
     <a href="https://www.github.com/felipefreitassilvalearning/"><img src="https://img.shields.io/badge/GitHub-4F5459?style=for-the-badge&logo=github&logoColor=white" /></a>
 </div>
 
-<div>
-    <h2>Prefer to read in another language?</h2>
-    [![[en](lang\flags\us.svg)](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.en.md)
-    [![[de](lang\flags\de.svg)](https://img.shields.io/badge/lang-de-yellow.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.de.md)
-    [![[es](lang\flags\es.svg)](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.es.md)
-    [![[pt-br](lang\flags\br.svg)](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.md)
-</div>
+<h2>Prefer to read in another language?</h2>
+
+<ul>
+    <li><a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.en.md"><img src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/us.svg" alt="en" />English</a></li>
+    <li><a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.de.md"><img src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/de.svg" alt="de" />German | Deutsch</a></li>
+    <li><a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.es.md"><img src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/es.svg" alt="es" />Spanish | Español</a></li>
+</ul>
+
+-   [![en](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/us.svg)English](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.en.md)
+-   [![de](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/de.svg)German | Deutsch](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.de.md)
+-   [![es](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/es.svg)Spanish | Español](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.es.md)
