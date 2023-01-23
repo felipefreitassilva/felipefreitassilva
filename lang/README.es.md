@@ -46,8 +46,8 @@
 </div>
 
 <div>
-    <h2>Prefer to read in another language?</h2>
-    [![[en](lang\flags\us.svg)](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.en.md)
-    [![[de](lang\flags\de.svg)](https://img.shields.io/badge/lang-de-yellow.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.de.md)
-    [![[pt-br](lang\flags\br.svg)](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/felipefreitassilva/felipefreitassilva/blob/master/lang/README.md)
+    <h2>¿Prefieres leer en otro idioma?</h2>
+    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.en.md"><img height="18" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/us.svg" alt="en" />English</a> | 
+    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.de.md"><img height="18" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/de.svg" alt="de" />German (Deutsch)</a> | 
+    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.en.md"><img height="18" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/br.svg" alt="pt-br" />Portuguese-BR (Português-BR)</a>
 </div>

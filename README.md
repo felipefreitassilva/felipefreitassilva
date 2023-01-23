@@ -46,14 +46,9 @@
     <a href="https://www.github.com/felipefreitassilvalearning/"><img src="https://img.shields.io/badge/GitHub-4F5459?style=for-the-badge&logo=github&logoColor=white" /></a>
 </div>
 
-<h2>Prefer to read in another language?</h2>
-
-<ul>
-    <li><a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.en.md"><img src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/us.svg" alt="en" />English</a></li>
-    <li><a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.de.md"><img src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/de.svg" alt="de" />German | Deutsch</a></li>
-    <li><a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.es.md"><img src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/es.svg" alt="es" />Spanish | Español</a></li>
-</ul>
-
--   [![en](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/us.svg)English](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.en.md)
--   [![de](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/de.svg)German | Deutsch](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.de.md)
--   [![es](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/es.svg)Spanish | Español](https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.es.md)
+<div>
+    <h2>Prefer to read in another language?</h2>
+    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.en.md"><img height="18" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/us.svg" alt="en" />English</a> | 
+    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.de.md"><img height="18" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/de.svg" alt="de" />German (Deutsch)</a> | 
+    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.es.md"><img height="18" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/es.svg" alt="es" />Spanish (Español)</a>
+</div>
