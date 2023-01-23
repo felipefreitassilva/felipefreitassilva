@@ -40,9 +40,10 @@
 
 <div>
     <h2>Contate-me: </h2>
-    <a href="https://www.github.com/felipefreitassilvalearning/"><img src="https://img.shields.io/badge/GitHub-4F5459?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="https://www.linkedin.com/in/felipefreitassilva/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://felipefreitassilva.com.br/"><img src="https://img.shields.io/badge/Visite meu site!-1d34a3?style=for-the-badge&logo=internet&logoColor=white" /></a>
     <a href="mailto:eu.felipefreitassilva@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://www.linkedin.com/in/felipefreitassilva/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://www.github.com/felipefreitassilvalearning/"><img src="https://img.shields.io/badge/GitHub-4F5459?style=for-the-badge&logo=github&logoColor=white" /></a>
 </div>
 
 <div>
