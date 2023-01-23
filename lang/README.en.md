@@ -40,14 +40,14 @@
 
 <div>
     <h2>Contact-me: </h2>
-    <a href="https://www.github.com/felipefreitassilvalearning/"><img src="https://img.shields.io/badge/GitHub-4F5459?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="https://www.linkedin.com/in/felipefreitassilva/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="mailto:eu.felipefreitassilva@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://www.github.com/felipefreitassilvalearning/" target="_blank"><img src="https://img.shields.io/badge/GitHub-4F5459?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://www.linkedin.com/in/felipefreitassilva/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="mailto:eu.felipefreitassilva@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </div>
 
 <div>
     <h2>Prefer to read in another language?</h2>
-    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.de.md"><img height="18" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/de.svg" alt="de" />German (Deutsch)</a> | 
-    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.es.md"><img height="18" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/es.svg" alt="es" />Spanish (Español)</a> | 
-    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.en.md"><img height="18" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/br.svg" alt="pt-br" />Portuguese-BR (Português-BR)</a>
+    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.de.md" target="_blank"><img height="17" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/de.svg" alt="de" />German (Deutsch)</a> | 
+    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/README.es.md" target="_blank"><img height="17" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/es.svg" alt="es" />Spanish (Español)</a> | 
+    <a href="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/README.md" target="_blank"><img height="17" src="https://github.com/felipefreitassilva/felipefreitassilva/blob/main/lang/flags/br.svg" alt="pt-br" />Portuguese-BR (Português-BR)</a>
 </div>
