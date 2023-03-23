@@ -40,86 +40,108 @@
 	</head>
 	<body>
 		<main>
-			<div class="generalInfo">
-				<h1>Felipe Freitas Silva</h1>
-				<div class="address">
-					<img
-						alt=""
-						src="../../assets/addressIcon.png"
-					/>
-					<address>Porto Alegre, RS</address>
-				</div>
-				<div class="social">
-					<div class="github">
+			<div class="page">
+				<section class="generalInfo">
+					<h1>Felipe Freitas Silva</h1>
+					<div class="address">
 						<img
 							alt=""
-							src="../../assets/githubIcon.png"
+							src="../../assets/addressIcon.png"
 						/>
-						<a
-							href="https://github.com/felipefreitassilva"
-							target="_blank"
-						>
-							GitHub
-						</a>
+						<address>Porto Alegre, RS</address>
 					</div>
-					<div class="linkedin">
+					<div class="social">
+						<div class="github">
+							<img
+								alt=""
+								src="../../assets/githubIcon.png"
+							/>
+							<a
+								href="https://github.com/felipefreitassilva"
+								target="_blank"
+							>
+								GitHub
+							</a>
+						</div>
+						<div class="linkedin">
+							<img
+								alt=""
+								src="../../assets/linkedinIcon.png"
+							/>
+							<a
+								href="https://www.linkedin.com/in/felipefreitassilva/"
+								target="_blank"
+							>
+								LinkedIn
+							</a>
+						</div>
+						<div class="mail">
+							<img
+								alt=""
+								src="../../assets/emailIcon.png"
+							/>
+							<a href="mailto:eu.felipefreitassilva@gmail.com">
+								eu.felipefreitassilva@gmail.com
+							</a>
+						</div>
+					</div>
+					<div class="text">
+						<p>
+							Desenvolvedor Front-End com
+							<span id="xp"></span>
+							anos de experiência. Em 2020 criei e publiquei
+							<a
+								href="https://calculadorafarroups.vercel.app/"
+								target="_blank"
+							>
+								meu primeiro site
+							</a>
+							, para ajudar meus colegas com suas notas - uma
+							calculadora em que o usuário inseria suas notas em 2
+							dos primeiros trimestres e recebia como resposta a
+							nota necessária para passar de ano. Nesse mesmo ano,
+							criei diversos projetos e publiquei alguns
+							aplicativos. Desde o 2º semestre da faculdade,
+							dedico muito do meu tempo trabalhando como
+							desenvolvedor na
+							<a
+								href="#internships"
+								translate="no"
+							>
+								Nutrorio
+							</a>
+							, onde aprendi a maior parte do que sei hoje,
+							principalmente nos quesitos de trabalhar em grupo e
+							desenvolver pensando em maneiras mais eficientes de
+							resolver problemas. Pretendo utilizar meu tempo para
+							seguir meus estudos, dentro da faculdade e fora, e
+							ajudar a criar soluções tecnológicas para mais
+							pessoas.
+						</p>
+					</div>
+				</section>
+				<section class="skills">
+					<div class="title">
 						<img
 							alt=""
-							src="../../assets/linkedinIcon.png"
+							src="../../assets/programmingLanguages.png"
 						/>
-						<a
-							href="https://www.linkedin.com/in/felipefreitassilva/"
-							target="_blank"
-						>
-							LinkedIn
-						</a>
+						<h2>Linguagens Conhecidas</h2>
 					</div>
-					<div class="mail">
-						<img
-							alt=""
-							src="../../assets/emailIcon.png"
-						/>
-						<a href="mailto:eu.felipefreitassilva@gmail.com">
-							eu.felipefreitassilva@gmail.com
-						</a>
-					</div>
-				</div>
-				<div class="text">
-					<p>
-						Desenvolvedor Front-End com
-						<span id="xp"></span>
-						anos de experiência e
-						<span id="idade"></span>
-						de vida. Em 2020 criei e publiquei
-						<a
-							href="https://play.google.com/store/apps/details?id=com.outdevs.calculadorafarroups"
-							target="_blank"
-						>
-							meu primeiro site
-						</a>
-						, para ajudar meus colegas com suas notas - uma
-						calculadora em que o usuário inseria suas notas em 2 dos
-						primeiros trimestres e recebia como resposta a nota
-						necessária para passar de ano. Nesse mesmo ano, criei
-						diversos projetos e publiquei alguns aplicativos. No
-						último semestre de 2022 dediquei muito do meu tempo
-						trabalhando como desenvolvedor na
-						<a
-							href="#nutrorio"
-							translate="no"
-						>
-							Nutrorio
-						</a>
-						, onde aprendi a maior parte do que sei hoje,
-						principalmente nos quesitos de trabalhar em grupo e
-						desenvolver pensando em maneiras mais eficientes de
-						resolver problemas. Pretendo utilizar meu tempo para
-						seguir meus estudos, dentro da faculdade e fora, e
-						ajudar a criar soluções tecnológicas para mais pessoas.
-					</p>
-				</div>
-			</div>
-			<div class="experience">
+					<ul
+						class="list"
+						translate="no"
+					>
+						<li>[ React ]</li>
+						<li>[ Typescript ]</li>
+						<li>[ SCSS ]</li>
+						<li>[ React Native ]</li>
+						<li>[ Javascript ]</li>
+						<li>[ HTML 5 ]</li>
+						<li>[ CSS 3 ]</li>
+					</ul>
+				</section>
+			<section class="experience">
 				<div class="title">
 					<img
 						alt=""
@@ -129,28 +151,7 @@
 				</div>
 				<ul class="list">
 					<li>
-						<h3>Projetos Pessoais</h3>
-						<h4>
-							<a
-								href="https://play.google.com/store/apps/details?id=com.outdevs.calculadorafarroups"
-								target="_blank"
-								translate="no"
-							>
-								Calculadora Farroups - App
-							</a>
-						</h4>
-						<ul>
-							<li>App para calcular médias escolares</li>
-							<li>Uso da biblioteca React Native</li>
-							<li>
-								Navegação entre páginas, calculos dinâmicos e
-								instantâneos
-							</li>
-						</ul>
-					</li>
-
-					<li>
-						<h3>Estágios</h3>
+						<h3 id="internships">Estágios</h3>
 						<h4>
 							<a
 								id="nutrorio"
@@ -172,193 +173,220 @@
 								Integração com o back-end, criação e manutenção
 								do banco de dados.
 							</li>
-							<li translate="no">React</li>
-							<li translate="no">Typescript</li>
-							<li translate="no">SCSS</li>
-							<li translate="no">Node.js</li>
-						</ul>
-					</li>
-
-					<li>
-						<h3>Projetos Escolares - Extra curso</h3>
-						<h4>
-							<a
-								href="https://clubeautomatizando.site"
-								target="_blank"
-								translate="no"
-							>
-								Clube Automatizando
-							</a>
-						</h4>
-						<ul>
-							<li>Criação de protótipos</li>
-							<li>Estudo de programação básica em C++</li>
 							<li>
-								Estudo de eletrônica - circuitos elétricos e
-								impressão de PCU (placa de cobre)
-							</li>
-						</ul>
-						<h4>
-							<a
-								href="https://programat.com.br"
-								target="_blank"
-								translate="no"
-							>
-								Programat
-							</a>
-						</h4>
-						<ul>
-							<li>Implementação em turmas de 9º ano</li>
-							<li>
-								Ensino de matemática com o auxílio da
-								programação
-							</li>
-							<li>
-								Ensino do básico das linguagens Python e
-								JavaScript
+								Linguagens:
+								<ul>
+									<li translate="no">React</li>
+									<li translate="no">Typescript</li>
+									<li translate="no">SCSS</li>
+									<li translate="no">Node.js</li>
+								</ul>
 							</li>
 						</ul>
 					</li>
 				</ul>
-			</div>
-			<div class="skills">
-				<div class="title">
-					<img
-						alt=""
-						src="../../assets/programmingLanguages.png"
-					/>
-					<h2>Linguagens Conhecidas</h2>
-				</div>
-				<ul
-					class="list"
-					translate="no"
-				>
-					<li>[ React ]</li>
-					<li>[ Typescript ]</li>
-					<li>[ SCSS ]</li>
-					<li>[ React Native ]</li>
-					<li>[ Javascript ]</li>
-					<li>[ HTML 5 ]</li>
-					<li>[ CSS 3 ]</li>
-					<li>
-						[ Node.js ] -
-						<span translate="yes">Aprendendo</span>
-					</li>
-				</ul>
-			</div>
-			<div class="idioms">
-				<div class="title">
-					<img
-						alt=""
-						src="../../assets/languages.png"
-					/>
-					<h2>Idiomas</h2>
-				</div>
-				<ul class="list">
-					<li>
-						<h3>Inglês (Proficiente - C2)</h3>
-						<ul>
-							<li>
+			</section>
+			<div class="page">
+				<section class="experience">
+					<ul class="list">
+						<li>
+							<h3>Projetos Pessoais</h3>
+							<h4>
 								<a
-									href="https://drive.google.com/file/d/1BrmelqqELOF1in5bybhmpu6rWevR9Xq2/view?usp=share_link"
+									href="https://play.google.com/store/apps/details?id=com.outdevs.calculadorafarroups"
 									target="_blank"
 									translate="no"
 								>
-									Passed with grade B - Cambridge Proficiency
-									- 2020
+									Calculadora Farroups - App
 								</a>
-							</li>
-						</ul>
-					</li>
-
-					<li>
-						<h3>Espanhol (Intermediário - B2)</h3>
-						<ul>
-							<li>
+							</h4>
+							<ul>
+								<li>App para calcular médias escolares</li>
+								<li>Uso da biblioteca React Native</li>
+								<li>
+									Navegação entre páginas, calculos dinâmicos e
+									instantâneos
+								</li>
+							</ul>
+							<h4>
 								<a
-									href="https://drive.google.com/file/d/1ZffAegf56Mg3B41ujGA-PD7zdWzpR3Gy/view?usp=share_link"
+									href="https://calculadorafarroups.vercel.app/"
 									target="_blank"
 									translate="no"
 								>
-									Certificación de Calificación DELE - Nivel
-									B2 - 2021
+									Calculadora Farroups - Site
 								</a>
-							</li>
-						</ul>
-					</li>
-
-					<li>
-						<h3>Alemão (Intermediário - B1)</h3>
-						<ul>
-							<li>
+							</h4>
+							<ul>
+								<li>Site para calcular médias escolares</li>
+								<li>
+									Tecnologias:
+									<ul>
+										<li translate="no">React</li>
+										<li translate="no">SASS</li>
+									</ul>
+								</li>
+								<li>
+									Navegação entre páginas, calculos dinâmicos e
+									instantâneos
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h3>Projetos Escolares - Extra curso</h3>
+							<h4>
 								<a
-									href="https://drive.google.com/file/d/1_SMsfJXiG_w23DSGf8sWejTv0HxNgN9y/view?usp=share_link"
+									href="https://clubeautomatizando.site"
 									target="_blank"
 									translate="no"
 								>
-									Deutsches Spachdiplom der
-									Kultusministerkonferenz - Erste Stufe (DSD
-									I) - 2020
+									Clube Automatizando
 								</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
+							</h4>
+							<ul>
+								<li>Criação de protótipos</li>
+								<li>Estudo de programação básica em C++</li>
+								<li>
+									Estudo de eletrônica - circuitos elétricos e
+									impressão de PCU (placa de cobre)
+								</li>
+							</ul>
+							<h4>
+								<a
+									href="https://programat.com.br"
+									target="_blank"
+									translate="no"
+								>
+									Programat
+								</a>
+							</h4>
+							<ul>
+								<li>Implementação em turmas de 9º ano</li>
+								<li>
+									Ensino de matemática com o auxílio da
+									programação
+								</li>
+								<li>
+									Ensino do básico das linguagens Python e
+									JavaScript
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
 			</div>
-			<div class="education">
-				<div class="title">
-					<img
-						alt=""
-						src="../../assets/education.png"
-					/>
-					<h2>Educação</h2>
-				</div>
-				<ul class="list">
-					<li>
-						<h3>Ensino Superior</h3>
-						<h4>
-							<a
-								href="https://www.pucrs.br/politecnica/curso/engenharia-de-software/"
-								target="_blank"
-							>
-								<span translate="no">PUCRS</span>
-								- Engenharia de Software
-							</a>
-						</h4>
-						<h5>Janeiro 2022 - Dezembro 2025</h5>
-						<address translate="no">
-							Av. Ipiranga, 6681 - Partenon, Porto Alegre - RS,
-							90619-900
-						</address>
-					</li>
-
-					<li>
-						<h3>3º ano do Ensino Médio</h3>
-						<h4>
-							<a
-								href="https://colegiofarroupilha.com.br/"
-								target="_blank"
-								translate="no"
-							>
-								Colégio Farroupilha
-							</a>
-						</h4>
-						<h5>2009 - 2021</h5>
-						<address translate="no">
-							Porto Alegre, Rio Grande do Sul
-						</address>
-						<ul>
-							<li>Orador da turma no culto de formatura</li>
-							<li>
-								Representante de turma no ano de 2015 e de
-								2017-2021
-							</li>
-						</ul>
-					</li>
-				</ul>
+			<div class="page">
+				<section class="idioms">
+					<div class="title">
+						<img
+							alt=""
+							src="../../assets/languages.png"
+						/>
+						<h2>Idiomas</h2>
+					</div>
+					<ul class="list">
+						<li>
+							<h3>Inglês (Proficiente - C2)</h3>
+							<ul>
+								<li>
+									<a
+										href="https://drive.google.com/file/d/1BrmelqqELOF1in5bybhmpu6rWevR9Xq2/view?usp=share_link"
+										target="_blank"
+										translate="no"
+									>
+										Passed with grade B - Cambridge
+										Proficiency - 2020
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h3>Espanhol (Intermediário - B2)</h3>
+							<ul>
+								<li>
+									<a
+										href="https://drive.google.com/file/d/1ZffAegf56Mg3B41ujGA-PD7zdWzpR3Gy/view?usp=share_link"
+										target="_blank"
+										translate="no"
+									>
+										Certificación de Calificación DELE -
+										Nivel B2 - 2021
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h3>Alemão (Intermediário - B1)</h3>
+							<ul>
+								<li>
+									<a
+										href="https://drive.google.com/file/d/1_SMsfJXiG_w23DSGf8sWejTv0HxNgN9y/view?usp=share_link"
+										target="_blank"
+										translate="no"
+									>
+										Deutsches Spachdiplom der
+										Kultusministerkonferenz - Erste Stufe
+										(DSD I) - 2020
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section class="education">
+					<div class="title">
+						<img
+							alt=""
+							src="../../assets/education.png"
+						/>
+						<h2>Educação</h2>
+					</div>
+					<ul class="list">
+						<li>
+							<h3>Ensino Superior</h3>
+							<h4>
+								<a
+									href="https://www.pucrs.br/politecnica/curso/engenharia-de-software/"
+									target="_blank"
+								>
+									<span translate="no">PUCRS</span>
+									- Engenharia de Software
+								</a>
+							</h4>
+							<h5>Janeiro 2022 - Dezembro 2025</h5>
+							<address translate="no">
+								Av. Ipiranga, 6681 - Partenon, Porto Alegre -
+								RS, 90619-900
+							</address>
+						</li>
+						<li>
+							<h3>3º ano do Ensino Médio</h3>
+							<h4>
+								<a
+									href="https://colegiofarroupilha.com.br/"
+									target="_blank"
+									translate="no"
+								>
+									Colégio Farroupilha
+								</a>
+							</h4>
+							<h5>2009 - 2021</h5>
+							<address translate="no">
+								Porto Alegre, Rio Grande do Sul
+							</address>
+							<ul>
+								<li>Orador da turma no culto de formatura</li>
+								<li>
+									Representante de turma no ano de 2015 e de
+									2017-2021
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
 			</div>
 		</main>
-		<footer>
+		<footer class="no-print">
 			<h5>
 				<a href="felipefreitassilva.com.br/pages/cv/references.html">
 					Referências (ícones)

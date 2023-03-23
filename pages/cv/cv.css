@@ -3,27 +3,40 @@ body {
 	font-family: 'Shippori Mincho', serif;
 }
 
+@media print {
+	.no-print {
+		display: none;
+	}
+
+	.page {
+		min-height: calc(100vh - 2%);
+	}
+
+	section {
+	}
+}
+
 main > div,
 footer {
 	padding: 1% 8% 2% 4%;
 }
 
-div.generalInfo {
+section.generalInfo {
 	padding-bottom: 0;
 }
 
-div.generalInfo h1 {
+section.generalInfo h1 {
 	margin: 0;
 	padding: 20px 0;
 }
 
-div.generalInfo div {
+section.generalInfo div {
 	display: flex;
 	align-items: center;
 	padding-bottom: 10px;
 }
 
-div.generalInfo div.social {
+section.generalInfo div.social {
 	display: block;
 }
 
@@ -40,7 +53,7 @@ address {
 	font-style: normal;
 }
 
-div div.title {
+section div.title {
 	display: flex;
 	align-items: center;
 }
@@ -49,11 +62,23 @@ ul {
 	margin: 0;
 }
 
-div.generalInfo img {
+section.generalInfo img {
 	width: 30px;
 }
 
 img {
 	width: 40px;
 	margin: 0 10px 0 3.3px;
+}
+
+section.skills ul.list {
+	gap: 1rem;
+	display: flex;
+	list-style-type: none;
+}
+
+@media print {
+	section.skills ul.list {
+		gap: 0.25rem;
+	}
 }
