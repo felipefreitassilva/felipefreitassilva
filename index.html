@@ -35,7 +35,7 @@
 		<title>Felipe Freitas Silva</title>
 	</head>
 	<body>
-		<main>
+		<!-- <main>
 			<div>
 				<h1>Olá! Me chamo Felipe👋</h1>
 				<p>
@@ -207,6 +207,13 @@
 					/>
 				</a>
 			</div>
-		</main>
+		</main> -->
+		<input type="file" name="" id="file">
+		<script>
+			const file = document.getElementById('file');
+			file.addEventListener('change', () => {
+				console.log(file.files[0])
+			});
+		</script>
 	</body>
 </html>
