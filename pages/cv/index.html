@@ -15,19 +15,6 @@
 			content="Um pouco mais sobre mim."
 		/>
 		<link
-			rel="preconnect"
-			href="https://fonts.googleapis.com"
-		/>
-		<link
-			rel="preconnect"
-			href="https://fonts.gstatic.com"
-			crossorigin
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
-			rel="stylesheet"
-		/>
-		<link
 			rel="shortcut icon"
 			href="../../favicon.ico"
 			type="image/x-icon"
@@ -40,116 +27,127 @@
 	</head>
 	<body>
 		<main>
-			<div class="page">
-				<section class="generalInfo">
-					<h1>Felipe Freitas Silva</h1>
-					<div class="address">
+			<section id="generalInfo" class="generalInfo">
+				<h1>Felipe Freitas Silva</h1>
+				<div class="address">
+					<img
+						width="40"
+						height="40"
+						alt="addressPin"
+						src="../../assets/addressIcon.webp"
+					/>
+					<address>Porto Alegre, RS</address>
+				</div>
+				<div class="social">
+					<div class="github" title="github.com/felipefreitassilva">
 						<img
-							alt=""
-							src="../../assets/addressIcon.png"
+							width="40"
+							height="40"
+							alt="githubLogo"
+							src="../../assets/githubIcon.webp"
 						/>
-						<address>Porto Alegre, RS</address>
+						<a
+							href="https://github.com/felipefreitassilva"
+							target="_blank"
+						>
+							GitHub
+						</a>
 					</div>
-					<div class="social">
-						<div class="github">
-							<img
-								alt=""
-								src="../../assets/githubIcon.png"
-							/>
-							<a
-								href="https://github.com/felipefreitassilva"
-								target="_blank"
-							>
-								GitHub
-							</a>
-						</div>
-						<div class="linkedin">
-							<img
-								alt=""
-								src="../../assets/linkedinIcon.png"
-							/>
-							<a
-								href="https://www.linkedin.com/in/felipefreitassilva/"
-								target="_blank"
-							>
-								LinkedIn
-							</a>
-						</div>
-						<div class="mail">
-							<img
-								alt=""
-								src="../../assets/emailIcon.png"
-							/>
-							<a href="mailto:eu.felipefreitassilva@gmail.com">
-								eu.felipefreitassilva@gmail.com
-							</a>
-						</div>
-					</div>
-					<div class="text">
-						<p>
-							Desenvolvedor Front-End com
-							<span id="xp"></span>
-							anos de experiência. Em 2020 criei e publiquei
-							<a
-								href="https://calculadorafarroups.vercel.app/"
-								target="_blank"
-							>
-								meu primeiro site
-							</a>
-							, para ajudar meus colegas com suas notas - uma
-							calculadora em que o usuário inseria suas notas em 2
-							dos primeiros trimestres e recebia como resposta a
-							nota necessária para passar de ano. Nesse mesmo ano,
-							criei diversos projetos e publiquei alguns
-							aplicativos. Desde o 2º semestre da faculdade,
-							dedico muito do meu tempo trabalhando como
-							desenvolvedor na
-							<a
-								href="#internships"
-								translate="no"
-							>
-								Nutrorio
-							</a>
-							, onde aprendi a maior parte do que sei hoje,
-							principalmente nos quesitos de trabalhar em grupo e
-							desenvolver pensando em maneiras mais eficientes de
-							resolver problemas. Pretendo utilizar meu tempo para
-							seguir meus estudos, dentro da faculdade e fora, e
-							ajudar a criar soluções tecnológicas para mais
-							pessoas.
-						</p>
-					</div>
-				</section>
-				<section class="skills">
-					<div class="title">
+					<div class="linkedin" title="linkedin.com/in/felipefreitassilva">
 						<img
-							alt=""
-							src="../../assets/programmingLanguages.png"
+							width="40"
+							height="40"
+							alt="linkedinLogo"
+							src="../../assets/linkedinIcon.webp"
 						/>
-						<h2>Linguagens Conhecidas</h2>
+						<a
+							href="https://www.linkedin.com/in/felipefreitassilva/"
+							target="_blank"
+						>
+							LinkedIn
+						</a>
 					</div>
-					<ul
-						class="list"
-						translate="no"
-					>
-						<li>[ React ]</li>
-						<li>[ Typescript ]</li>
-						<li>[ SCSS ]</li>
-						<li>[ React Native ]</li>
-						<li>[ Javascript ]</li>
-						<li>[ HTML 5 ]</li>
-						<li>[ CSS 3 ]</li>
-					</ul>
-				</section>
-			<section class="experience">
+					<div class="mail">
+						<img
+							width="40"
+							height="40"
+							alt="emailIcon"
+							src="../../assets/emailIcon.webp"
+						/>
+						<a href="mailto:eu.felipefreitassilva@gmail.com">
+							eu.felipefreitassilva@gmail.com
+						</a>
+					</div>
+				</div>
+				<div class="text">
+					<p>Desenvolvedor de Software e estudante aficionado por tecnologia em geral. Sempre tive apreço por essa área, e não me canso de pesquisar sobre coisas novas que aparecem todos os dias na área digital. Ainda antes do ensino médio, tive a oportunidade de montar meu primeiro computador, peça por peça, apenas com conhecimento adquirido online, o que me incentivou a por a mão na massa em outros campos. Um destes campos foi a programação, que estudo por conta desde 2020 e que decidi me aprofundar em 2022, quando entrei na faculdade e me matriculei no <a href="#pucrs">curso de Engenharia de Software da PUC-RS</a>, onde estudo até hoje e que me rendeu diversos amigos e oportunidades na área.</p>
+					<p>Foi graças a faculdade que consegui meu <a href="#internships">primeiro estágio</a> na área, indicado por um colega que acreditou em mim e onde estou até hoje, tendo aprendido muito tanto tecnicamente - pois tive acesso a diversas áreas do desenvolvimento e lançamento de um sistema - quanto pessoalmente, dado o ambiente muito simpático de trabalho.</p>
+					<p>Pretendo seguir aprofundando meus conhecimentos, visto que é uma área pela qual me interesso muito e que há muito para explorar. No momento, além dos trabalhos, que me proporcionam atuar desde o frontend até o banco de dados, estou mais interessado em aprender as outras pontas do processo, isto é, a parte de design e prototipação ao início - utilizando ferramentas como o Figma - e a parte de infraestrutura - atráves do Docker principalmente.</p>
+				</div>
+			</section>
+			<section id="skills" class="skills">
 				<div class="title">
 					<img
-						alt=""
-						src="../../assets/experience.png"
+						width="40"
+						height="40"
+						alt="decorativeIcon"
+						src="../../assets/programmingLanguages.webp"
+					/>
+					<h2>Linguagens & Tecnologias Conhecidas</h2>
+				</div>
+				<ul
+					class="list"
+					translate="no"
+				>
+					<li>Typescript</li>
+					<li>React</li>
+					<li>SCSS</li>
+					<li>React Native</li>
+					<li>SQL</li>
+					<li>MongoDB</li>
+					<li>Javascript</li>
+					<li>HTML</li>
+					<li>CSS</li>
+				</ul>
+			</section>
+			<section id="experience" class="experience">
+				<div class="title">
+					<img
+						width="40"
+						height="40"
+						alt="decorativeIcon"
+						src="../../assets/experience.webp"
 					/>
 					<h2>Experiência</h2>
 				</div>
 				<ul class="list">
+					<li>
+						<h3 id="jobs">Trabalhos</h3>
+						<h4>
+							<a
+								id="intermidia"
+								href="https://www.linkedin.com/company/interm-dia/"
+								target="_blank"
+								translate="no"
+							>
+								Intermidia
+							</a>
+						</h4>
+						<h5>Abril 2023 - </h5>
+						<ul>
+							<li>
+								Responsável por desenvolver soluções de melhoria de interface para os usuários da plataforma.
+							</li>
+							<li>
+								Tecnologias:
+								<ul>
+									<li>Angular (Typescript)</li>
+									<li>.NET Core (C#)</li>
+									<li>SQL Server</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
 					<li>
 						<h3 id="internships">Estágios</h3>
 						<h4>
@@ -165,122 +163,132 @@
 						<h5>Agosto 2022 - Maio 2023</h5>
 						<ul>
 							<li>
-								Responsável pelo desenvolvimento de telas e da
-								organização dos estilos do site (variáveis;
-								cores, etc)
+								Responsável pela manutenção do repositório e boas práticas de organização.
 							</li>
 							<li>
-								Integração com o back-end, criação e manutenção
-								do banco de dados.
+								Desenvolvimento de telas responsivas e garantir uma boa experiência de usuário.
 							</li>
 							<li>
-								Linguagens:
+								Manutenção do servidor e banco de dados, divisão entre ambientes de desenvolvimento e produção.
+							</li>
+							<li>
+								Integração com o back-end, criação de rotas e conexão com o banco de dados.
+							</li>
+							<li>
+								Tecnologias:
 								<ul>
+									<li translate="no">Git</li>
+									<li translate="no">GitHub Actions</li>
 									<li translate="no">React</li>
 									<li translate="no">Typescript</li>
 									<li translate="no">SCSS</li>
 									<li translate="no">Node.js</li>
+									<li translate="no">MongoDB</li>
 								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h3>Projetos Pessoais</h3>
+						<h4>
+							<a
+								href="https://play.google.com/store/apps/details?id=com.outdevs.calculadorafarroups"
+								target="_blank"
+								translate="no"
+							>
+								Calculadora Farroups - App
+							</a>
+						</h4>
+						<ul>
+							<li>App para calcular médias escolares</li>
+							<li>
+								Navegação entre páginas, calculos dinâmicos e
+								instantâneos
+							</li>
+							<li>
+								Tecnologias:
+								<ul>
+									<li translate="no">React Native</li>
+									<li translate="no">JavaScript</li>
+									<li translate="no">Expo</li>
+								</ul>
+							</li>
+						</ul>
+						<h4>
+							<a
+								href="https://calculadorafarroups.vercel.app/"
+								target="_blank"
+								translate="no"
+							>
+								Calculadora Farroups - Site
+							</a>
+						</h4>
+						<ul>
+							<li>Site para calcular médias escolares</li>
+							<li>
+								Navegação entre páginas, calculos dinâmicos e
+								instantâneos
+							</li>
+							<li>
+								Tecnologias:
+								<ul>
+									<li translate="no">React</li>
+									<li translate="no">TypeScript</li>
+									<li translate="no">SASS</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h3>Projetos Escolares - Extra curso</h3>
+						<h4>
+							<a
+								href="https://clubeautomatizando.site"
+								target="_blank"
+								translate="no"
+							>
+								Clube Automatizando
+							</a>
+						</h4>
+						<ul>
+							<li>Criação de protótipos</li>
+							<li>Estudo de programação básica em C++</li>
+							<li>
+								Estudo de eletrônica - circuitos elétricos e
+								impressão de PCU (placa de cobre)
+							</li>
+						</ul>
+						<h4>
+							<a
+								href="https://programat.com.br"
+								target="_blank"
+								translate="no"
+							>
+								Programat
+							</a>
+						</h4>
+						<ul>
+							<li>Implementação em turmas de 9º ano</li>
+							<li>
+								Ensino de matemática com o auxílio da
+								programação
+							</li>
+							<li>
+								Ensino do básico das linguagens Python e
+								JavaScript
 							</li>
 						</ul>
 					</li>
 				</ul>
 			</section>
-			<div class="page">
-				<section class="experience">
-					<ul class="list">
-						<li>
-							<h3>Projetos Pessoais</h3>
-							<h4>
-								<a
-									href="https://play.google.com/store/apps/details?id=com.outdevs.calculadorafarroups"
-									target="_blank"
-									translate="no"
-								>
-									Calculadora Farroups - App
-								</a>
-							</h4>
-							<ul>
-								<li>App para calcular médias escolares</li>
-								<li>Uso da biblioteca React Native</li>
-								<li>
-									Navegação entre páginas, calculos dinâmicos e
-									instantâneos
-								</li>
-							</ul>
-							<h4>
-								<a
-									href="https://calculadorafarroups.vercel.app/"
-									target="_blank"
-									translate="no"
-								>
-									Calculadora Farroups - Site
-								</a>
-							</h4>
-							<ul>
-								<li>Site para calcular médias escolares</li>
-								<li>
-									Tecnologias:
-									<ul>
-										<li translate="no">React</li>
-										<li translate="no">SASS</li>
-									</ul>
-								</li>
-								<li>
-									Navegação entre páginas, calculos dinâmicos e
-									instantâneos
-								</li>
-							</ul>
-						</li>
-						<li>
-							<h3>Projetos Escolares - Extra curso</h3>
-							<h4>
-								<a
-									href="https://clubeautomatizando.site"
-									target="_blank"
-									translate="no"
-								>
-									Clube Automatizando
-								</a>
-							</h4>
-							<ul>
-								<li>Criação de protótipos</li>
-								<li>Estudo de programação básica em C++</li>
-								<li>
-									Estudo de eletrônica - circuitos elétricos e
-									impressão de PCU (placa de cobre)
-								</li>
-							</ul>
-							<h4>
-								<a
-									href="https://programat.com.br"
-									target="_blank"
-									translate="no"
-								>
-									Programat
-								</a>
-							</h4>
-							<ul>
-								<li>Implementação em turmas de 9º ano</li>
-								<li>
-									Ensino de matemática com o auxílio da
-									programação
-								</li>
-								<li>
-									Ensino do básico das linguagens Python e
-									JavaScript
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</section>
-			</div>
-			<div class="page">
-				<section class="idioms">
+			<section id="extras" class="extras">
+				<section id="idioms" class="idioms">
 					<div class="title">
 						<img
+							width="40"
+							height="40"
 							alt=""
-							src="../../assets/languages.png"
+							src="../../assets/languages.webp"
 						/>
 						<h2>Idiomas</h2>
 					</div>
@@ -333,11 +341,13 @@
 						</li>
 					</ul>
 				</section>
-				<section class="education">
+				<section id="education" class="education">
 					<div class="title">
 						<img
-							alt=""
-							src="../../assets/education.png"
+							width="40"
+							height="40"
+							alt="decorativeIcon"
+							src="../../assets/education.webp"
 						/>
 						<h2>Educação</h2>
 					</div>
@@ -346,6 +356,7 @@
 							<h3>Ensino Superior</h3>
 							<h4>
 								<a
+									id="pucrs"
 									href="https://www.pucrs.br/politecnica/curso/engenharia-de-software/"
 									target="_blank"
 								>
@@ -384,15 +395,15 @@
 						</li>
 					</ul>
 				</section>
-			</div>
+			</section>
 		</main>
 		<footer class="no-print">
 			<h5>
-				<a href="felipefreitassilva.com.br/pages/cv/references.html">
+				<a href="./references.html">
 					Referências (ícones)
 				</a>
 			</h5>
 		</footer>
-		<script src="../../js/script.js"></script>
+		<script defer src="../../js/script.js"></script>
 	</body>
 </html>
