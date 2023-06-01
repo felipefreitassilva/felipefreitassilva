@@ -1,1 +1,0 @@
-document.getElementById('xp').innerHTML=new Date().getFullYear()-2021
