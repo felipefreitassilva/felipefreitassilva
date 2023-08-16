@@ -64,7 +64,7 @@
         <a href="https://www.haskell.org/">
             <img align="center" alt="Logo-Haskell" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/haskell/haskell-original.svg">
         </a>
-        <a href="https://www.go.dev/">
+        <a href="https://go.dev/">
             <img align="center" alt="Logo-Go" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg">
         </a>
     </div><br>
@@ -100,7 +100,7 @@
         <a href="https://trello.com/">
             <img align="center" alt="Logo-Trello" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/trello/trello-plain.svg">
         </a>
-        <a href="visualstudio.microsoft.com">
+        <a href="https://visualstudio.microsoft.com">
             <img align="center" alt="Logo-VisualStudio" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg">
         </a>
     </div><br>
