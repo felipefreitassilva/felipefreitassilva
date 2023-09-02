@@ -19,36 +19,83 @@
 			href="profilePicture.svg"
 		/>
 		<link
-			href="css/style.css"
 			rel="stylesheet"
+			href="styles/index.css"
 		/>
-		<title>Felipe Freitas Silva - CV</title>
+		<title>Felipe Freitas Silva</title>
 	</head>
 	<body>
-		<main>
-			<div class="pageWrapper">
-				<div class="img">
-					<img
-						src="assets/images/perfil.jpg"
-						alt="Profile Picture"
-					/>
-					<span>
-						<h1>Hi!</h1>
-						<h2>
-							I'm Felipe, a
-							<br />
-							&lt;WebDeveloper />
-						</h2>
-					</span>
+		<main id="landing">
+			<div class="img">
+				<img
+					src="assets/images/perfil.jpg"
+					alt="Profile Picture"
+					onclick="easterEgg()"
+				/>
+				<div class="title">
+					<h1>Hi!</h1>
+					<h2>
+						I'm Felipe, a
+						<br />
+						<span id="title" translate="no">&lt;WebDeveloper /></span>
+					</h2>
 				</div>
-				<nav>
-					<ul>
-						<li><button>About me</button></li>
-						<li><button>My Projects</button></li>
-						<li><button>Contact Me</button></li>
-					</ul>
-				</nav>
 			</div>
+			<nav>
+				<ul>
+					<li><a href="pages/cv/index.html">
+						About me
+					</a></li>
+					<li><a
+						href="https://github.com.br/felipefreitassilva"
+						target="_blank"	
+					>
+						My Projects
+					</a></li>
+					<li><a
+						href="https://linkedin.com/in/felipefreitassilva"
+						target="_blank"	
+					>
+						Contact Me
+					</a></li>
+				</ul>
+				<div class="social">
+					<a
+						target="_blank"
+						href="https://linkedin.com/in/felipefreitassilva"
+						title="Linkedin"
+					>
+						<img
+							src="assets/linkedinIcon.webp"
+							alt="Linkedin"
+						/>
+					</a>
+					<a
+						target="_blank"
+						href="https://github.com/felipefreitassilva"
+						title="Github"
+					>
+						<img
+							src="assets/githubIcon.webp"
+							alt="Github"
+						/>
+					</a>
+					<a
+						target="_blank"
+						href="mailto:contato@felipefs.dev"
+						title="Email"
+					>
+						<img
+							src="assets/emailIcon.webp"
+							alt="Email"
+						/>
+					</a>
+				</div>
+			</nav>
 		</main>
+		<section id="about">
+
+		</section>
+	<script src="scripts/index.js"></script>
 	</body>
 </html>
