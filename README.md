@@ -109,6 +109,13 @@
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felipefreitassilva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="" /></a>
 </div>
 
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/felipefreitassilva/felipefreitassilva/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/felipefreitassilva/felipefreitassilva/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/felipefreitassilva/felipefreitassilva/output/github-contribution-grid-snake.svg">
+</picture>
+
 <div>
     <h2>Contate-me: </h2>
     <a href="https://felipefreitassilva.com.br/" target="_blank"><img src="https://img.shields.io/badge/Visite meu site!-1d34a3?style=for-the-badge&logo=internet&logoColor=white" /></a>
