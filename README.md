@@ -105,8 +105,24 @@
         </a>
     </div><br>
     <a href="https://github.com/felipefreitassilva?tab=repositories" target="_blank">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipefreitassilva&layout=compact&langs_count=7&theme=dracula" alt="" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felipefreitassilva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="" /></a>
+        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipefreitassilva&layout=compact&langs_count=7&theme=dracula" alt="" />
+        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felipefreitassilva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="" />
+        <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=felipefreitassilva&theme=dark&count_private=true&bg_color=0d1116&title_color=ce09ec&text_color=a4aacb&icon_color=007ec6" />
+    </a>
+</div>
+
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/felipefreitassilva/felipefreitassilva/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/felipefreitassilva/felipefreitassilva/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/felipefreitassilva/felipefreitassilva/output/github-contribution-grid-snake.svg">
+</picture>
+
+<div>
+    <h3>Obrigado pela visita!</h3>
+    <a href="https://github.com/felipefreitassilva" target="_blank">
+        <img src="https://profile-counter.glitch.me/felipefreitassilva/count.svg" />
+    </a>
 </div>
 
 <div>
