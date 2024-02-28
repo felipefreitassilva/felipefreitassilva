@@ -1,5 +1,5 @@
 <div>
-    <h1>Olá! Me chamo Felipe👋</h1>
+    <h1>Olá! Me chamo Felipe <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"/></h1>
     <p>Sou apaixonado por tecnologia, em todas as suas vertentes. Iniciei meus estudos em 2020, durante o Ensino Médio, e desde então estudei diversas linguagens e desenvolvi alguns projetos que podem ser vistos no <a href="https://github.com/felipefreitassilvalearning" target="_blank">meu perfil de aprendizado (/felipefreitassilvalearning)</a> e no <a href="https://github.com/engenhariasoftwarepucrs" target="_blank">meu perfil universitário (/EngenhariaSoftwarePUCRS)</a>, ambos aqui no Github. Dentre as diversas linguagens por que passei, seja em cursos onlines, projetos pessoais ou durante minhas aulas de Engenharia de Software na <a href="https://www.pucrs.br/politecnica/curso/engenharia-de-software/" target="_blank">PUCRS</a>, desenvolvi um grande apreço por Typescript, seja para desenvolvimento Mobile, Web ou de back-end.
 </div>
 
@@ -106,7 +106,7 @@
     </div><br>
     <a href="https://github.com/felipefreitassilva?tab=repositories" target="_blank">
         <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipefreitassilva&layout=compact&langs_count=7&theme=dracula" alt="" />
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felipefreitassilva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="" />
+        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felipefreitassilva&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&rank_icon=github" alt="" />
         <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=felipefreitassilva&theme=dark&count_private=true&bg_color=0d1116&title_color=ce09ec&text_color=a4aacb&icon_color=007ec6" />
     </a>
 </div>
