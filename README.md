@@ -59,7 +59,7 @@
             <img align="center" alt="Logo-Arduino" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg">
         </a>
         <a href="https://www.rust-lang.org/">
-            <img align="center" alt="Logo-Rust" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg">
+            <img align="center" alt="Logo-Rust" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg">
         </a>
         <a href="https://www.haskell.org/">
             <img align="center" alt="Logo-Haskell" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/haskell/haskell-original.svg">
