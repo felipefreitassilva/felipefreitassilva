@@ -121,6 +121,9 @@
 						<p>
 							Em meus dois anos de faculdade, tive a oportunidade de trabalhar em diversos projetos, tanto academicos quanto profissionais. Trabalhei com diversas tecnologias, como React, React Native, Typescript, Python, Node.js, MongoDB, SQL, C#, entre outras. Estou sempre buscando aprender mais e me aprimorar, e estou sempre aberto a novas oportunidades. Tenho um <a href="https://github.com/felipefreitassilva">perfil no GitHub onde mantenho todo meu histórico acadêmico</a>, sinta-se livre para dar uma olhada.
 						</p>
+						<p>
+							Além dos projetos acadêmicos, desenvolvi alguns websites e até mesmo alguns aplicativos por conta própria, o último que, inclusive, consegui publicar na <a href="https://apps.apple.com/br/app/ju%C3%ADzes-rally-british-club/id6502790506">App Store</a>. Este último lançamento me deixou muito orgulhoso, pois, apesar de ser um projeto relativamente pequeno, era um produto valioso que foi realmente utilizado e testado com um grupo maior de pessoas, com muitos feedbacks positivos e construtivos.
+						</p>
 					</div>
 				</div>
 				<div class="section skills">
@@ -430,12 +433,22 @@
 				</div>
 			</section>
 		</main>
-		<footer class="section no-print">
+		<footer class="section">
 			<h5>
+				Salvo em: <time id="saved-time" translate="no"></time>
+			</h5>
+			<h5 class="no-print">
 				<a href="./references.html">
 					Referências (ícones)
 				</a>
 			</h5>
 		</footer>
 	</body>
+	<script>
+		window.onload = () => {
+			const savedTime = document.getElementById('saved-time');
+			const date = new Date();
+			savedTime.innerText = date.toLocaleString();
+		}
+	</script>
 </html>
