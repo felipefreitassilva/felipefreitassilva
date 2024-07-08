@@ -116,10 +116,13 @@
 					</div>
 					<div class="text">
 						<p>
-							I am a Software Engineering student at PUCRS, and I love to learn new technologies and languages. I am always looking for new challenges and opportunities to learn and improve my skills. In my free time, I like to play video games, watch movies and series, and read books.
+							I am a Software Engineering student at PUCRS, and I love to learn new technologies and languages. I am always looking for new challenges and opportunities to learn and improve my skills. In my free time, I like to play video games, watch movies and series, and read books, as well as program, of course.
 						</p>
 						<p>
-							In my two years of University, I have already had the opportunity to work on several projects, both in the academic and professional fields. I have already worked with several technologies, such as React, React Native, Typescript, Python, Node.js, MongoDB, SQL, C#, among others. I am always looking for new challenges and opportunities to learn and improve my skills. I have a <a href="https://github.com/EngenhariaSoftwarePUCRS">GitHub profile where I have all of my academic projects</a>, feel free to check it out.
+							In my three years of University, I have already had the opportunity to work on several projects, both in the academic and professional fields. I have already worked with several technologies, such as React, React Native, Typescript, Python, Node.js, MongoDB, SQL, C#, among others. I am always looking for new challenges and opportunities to learn and improve my skills. I have a <a href="https://github.com/EngenhariaSoftwarePUCRS">GitHub profile where I have all of my academic projects</a>, feel free to check it out.
+						</p>
+						<p>
+							Besides the academic projects, I have developed some websites and even some mobile applications of my own, the latest of which I managed to publish to the <a href="https://apps.apple.com/br/app/ju%C3%ADzes-rally-british-club/id6502790506">App Store</a>. This latest release made me very proud, as even tough this was a relatively small project, it was a valuable product which was actually used and tested with a larger group of people, with a lot of positive and constructive feedback.
 						</p>
 					</div>
 				</div>
@@ -423,12 +426,22 @@
 				</div>
 			</section>
 		</main>
-		<footer class="section no-print">
+		<footer class="section">
 			<h5>
+				Saved at: <time id="saved-time" translate="no"></time>
+			</h5>
+			<h5 class="no-print">
 				<a href="./references.html">
 					References (icons)
 				</a>
 			</h5>
 		</footer>
 	</body>
+	<script>
+		window.onload = () => {
+			const savedTime = document.getElementById('saved-time');
+			const date = new Date();
+			savedTime.innerText = date.toLocaleString();
+		}
+	</script>
 </html>
