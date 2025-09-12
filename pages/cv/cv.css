@@ -116,6 +116,10 @@ img {
 		display: none;
 	}
 
+	.section {
+		padding-bottom: 0;
+	}
+
 	.skills ul.list {
 		display: grid;
 		grid-template-rows: repeat(3, 1fr);
@@ -123,6 +127,6 @@ img {
 	}
 
 	div.title {
-		padding-top: 5%;
+		padding-top: 0;
 	}
 }
