@@ -1,0 +1,49 @@
+.page-wrapper {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+
+  margin: 0 auto;
+  max-width: 900px;
+
+  padding: 5px 20px;
+}
+
+.left {
+  border-right: 1px solid #000;
+  padding-right: 20px;
+}
+
+.left h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.section {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #000;
+}
+
+.links {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links > div {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.technologies-list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+p {
+  text-align: justify;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Full Stack Web Developer, learn more about me and my work." data-i18n="metaDescription" />
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="print.css">
+  <script src="./translations.en.js"></script>
+  <script src="./translations.pt.js"></script>
+  <script src="./translations.de.js"></script>
+  <script src="./translations.es.js"></script>
+  <script src="./translations.js" defer></script>
+  <title data-i18n="title">Felipe Freitas Silva - Resume</title>
+</head>
+<body>
+  <header class="no-print"> 
+    <div class="languageSwitch">
+      <label for="language-select">🌐 <span data-i18n="selectLanguage">Select language:</span></label>
+      <select id="language-select" title="Select language">
+        <option value="en" data-i18n="langEnglish">🇬🇧 English</option>
+        <option value="pt" data-i18n="langPortuguese">🇧🇷 Português</option>
+        <option value="es" data-i18n="langSpanish">🇪🇸 Español</option>
+        <option value="de" data-i18n="langGerman">🇩🇪 Deutsch</option>
+      </select>
+    </div>
+
+    <div class="resumeToggle">
+      📰 
+      <a href="./index.html" class="toggle-button">
+        <span data-i18n="viewFull">View full resume</span>
+      </a>
+    </div>
+  </header>
+  <main class="page-wrapper">
+    <section class="left">
+      <h1>Felipe Freitas Silva</h1>
+      
+      <div class="name-links section">
+        <div class="links">
+          <div>
+            <img width="20" height="20" alt="addressPin" src="../../assets/addressIcon.webp" />
+            <address style="display: inline;" data-i18n="location">Porto Alegre, Brazil</address>
+          </div>
+          <div>
+            <img width="20" height="20" alt="githubLogo" src="../../assets/githubIcon.webp" />
+            <a href="https://github.com/felipefreitassilva" target="_blank">
+              github.com/felipefreitassilva
+            </a>
+          </div>
+          <div>
+            <img width="20" height="20" alt="linkedinLogo" src="../../assets/linkedinIcon.webp" />
+            <a href="https://www.linkedin.com/in/felipefreitassilva/" target="_blank">
+              linkedin.com/in/felipefreitassilva
+            </a>
+          </div>
+          <div>
+            <img width="20" height="20" alt="emailIcon" src="../../assets/emailIcon.webp" />
+            <a href="mailto:work@felipefs.dev" onclick="window.open('mailto:work@felipefs.dev')" data-i18n="email">work@felipefs.dev</a>
+          </div>
+          <div>
+            <img width="20" height="20" alt="internetIcon" src="../../assets/programmingLanguages.webp" />
+            <a href="https://www.felipefs.dev" target="_blank">felipefs.dev</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="technologies section">
+        <h2 data-i18n="skillsTitle">Technologies</h2>
+        <ul class="technologies-list" translate="no">
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Docker</li>
+          <li>SQL / NoSQL</li>
+          <li>Git</li>
+          <li>HTML5</li>
+          <!--  -->
+          <li>Next.js</li>
+          <li>React Native</li>
+          <li>Node.js</li>
+          <li>Firestore</li>
+          <li>RESTful APIs</li>
+          <li>CSS3 / SCSS</li>
+        </ul>
+      </div>
+
+      <div class="about-me section">
+        <h2 data-i18n="aboutTitle">About Me</h2>
+        <p data-i18n="intro">
+          Full Stack Developer with a strong focus on Frontend development. I began studying at the end of 2020, already aiming to solve real-world problems for my high school peers. I have always been passionate about learning languages, which led me to programming. I am currently in the final year of my Software Engineering degree at PUCRS and recently completed an exchange semester in Bonn, Germany, where I had the opportunity to improve my skills in an international environment.
+        </p>
+      </div>
+
+      <div class="foreign-languages">
+        <h2 data-i18n="foreignLanguagesTitle">Languages</h2>
+        <ul>
+          <li data-i18n="portugueseProficiency">Portuguese - Native</li>
+          <li data-i18n="englishProficiency">English - Fluent (C2)</li>
+          <li data-i18n="spanishProficiency">Spanish - Intermediate (B2)</li>
+          <li data-i18n="germanProficiency">German - Intermediate (B1)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="right">
+      <div class="experience section">
+        <h2 data-i18n="latestWorkExperienceTitle">Latest Experience</h2>
+        <h3 data-i18n="hpWorkTitle">Junior Frontend Developer - Hewlett Packard</h3>
+        <h4 data-i18n="hpWorkPeriod">September 2024 - March 2025</h4>
+        <p data-i18n="hpWorkDescription">I worked as a Frontend developer for HP's Instant Ink project, where I contributed to enhancing the user interface and improving the overall user experience. My responsibilities included implementing new features and React components, identifying and fixing bugs, and ensuring the application was responsive and accessible, for example, through Cypress testing.</p>
+        <p><span data-i18n="technologies">Technologies</span>: React, JavaScript, Jest, SCSS, Git</p>
+      </div>
+
+      <div class="projects section">
+        <h2 data-i18n="projectsTitle">Published Projects</h2>
+        <h3 data-i18n="juizesProjectTitle">Juízes Rally - British Club</h3>
+        <h4 data-i18n="juizesProjectPeriod">March 2023 - Current</h4>
+        <p data-i18n="juizesProjectDescriptionCompact">A mobile application developed for the British Club of Porto Alegre to manage their annual rally event, it allows event judges to register, track and later summarize racers data. Built with React Native for the multi platform compatibility, it was published to Apple's App Store and features a simple yet user-friendly interface with all required features such as offline usage. It was used by over 20 people across multiple editions of the event and received highly positive feedback.</p>
+        <p><span data-i18n="technologies">Technologies</span>: React Native, Expo, Firebase</p>
+      </div>
+
+      <div class="education">
+        <h2 data-i18n="educationTitle">Education</h2>
+
+        <h3 data-i18n="bachelorSSchool">Pontifical Catholic University of Rio Grande do Sul (PUCRS)</h3>
+        <h4 data-i18n="bachelorTitle">Bachelor's Degree in Software Engineering</h4>
+        <h5 data-i18n="bachelorPeriod">January 2022 - June 2026</h5>
+        <p data-i18n="bachelorNote" class="no-print">With additional certification on Games and Digital Entertainment.</p>
+
+        <h3 data-i18n="exchangeSchool">University of Bonn</h3>
+        <h4 data-i18n="exchangeTitle">Bachelor's in Computer Science</h4>
+        <h5 data-i18n="exchangePeriod">March 2025 - July 2025</h5>
+        <p data-i18n="exchangeNote" class="no-print">Exchange semester in Computer Science.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
