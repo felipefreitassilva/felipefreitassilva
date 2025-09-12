@@ -10,7 +10,7 @@ const translation_pt = {
   viewFull: "Ver currículo completo",
   location: "Porto Alegre, Brasil",
   email: "work@felipefs.dev",
-  aboutTitle: "Sobre Mmim",
+  aboutTitle: "Sobre Mim",
   intro: "Desenvolvedor Full Stack com forte foco em desenvolvimento Frontend. Comecei a estudar no final de 2020, já com o objetivo de resolver problemas do mundo real para meus colegas do ensino médio. Sempre fui apaixonado por aprender idiomas, o que me levou à programação. Atualmente estou no último ano do curso de Engenharia de Software na PUCRS e recentemente concluí um semestre de intercâmbio em Bonn, Alemanha, onde tive a oportunidade de aprimorar minhas habilidades em um ambiente internacional.",
   intro1: "Sou um desenvolvedor apaixonado por aprender novas linguagens - sejam de programação ou humanas. Estou sempre em busca de novos problemas para solucionar e oportunidades para aprimorar minhas habilidades e conhecimentos. No meu tempo livre, gosto de jogar com amigos e familiares, ler ficção e, claro, programar.",
   intro2a: "Academicamente, estou no último ano do curso de Engenharia de Software na PUCRS e acabei de finalizar um semestre de intercâmbio na ",
