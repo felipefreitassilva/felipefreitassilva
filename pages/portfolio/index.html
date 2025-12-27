@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfolio — Projects</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="pf-header">
+      <div class="container">
+        <div class="profile">
+          <img class="avatar" src="/assets/images/perfil.jpg" alt="Profile" />
+          <div class="header-info">
+            <h1>Felipe Freitas Silva</h1>
+            <p class="muted subtitle">Published projects / experiments / demos</p>
+          </div>
+        </div>
+        <nav class="header-actions">
+          <a class="btn ghost header-github" href="https://github.com/felipefreitassilva" target="_blank" rel="noopener">
+            <img src="/assets/githubIcon.webp" alt="GitHub" class="gh-icon-small" />
+            <span>Github</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <template id="project-template">
+        <article class="card">
+          <div class="carousel" data-project="">
+            <img src="" alt="" />
+            <div class="controls">
+              <button class="prev" aria-label="Previous image">‹</button>
+              <button class="next" aria-label="Next image">›</button>
+            </div>
+          </div>
+          <div class="content">
+            <div class="title-row">
+              <h3 class="proj-title"></h3>
+            </div>
+
+            <div class="deploy-row"></div>
+
+            <div class="release-row"></div>
+
+            <div class="meta"></div>
+
+            <details class="accordion">
+              <summary><span class="summary-text">Details</span><span class="summary-caret" aria-hidden="true">▾</span></summary>
+              <div class="links-list"></div>
+              <p class="description"></p>
+            </details>
+          </div>
+        </article>
+      </template>
+
+      <template id="chip-template">
+        <button class="chip" type="button"></button>
+      </template>
+
+      <section class="filters" aria-label="Project filters">
+        <div class="filter-row">
+          <label class="search" for="searchInput">
+            <input id="searchInput" type="search" placeholder="Search projects or description" />
+          </label>
+
+          <div class="tech-filters" id="techFilters">
+            <strong>Technologies</strong>
+            <div class="chips" id="techChips">
+              <!-- chips injected by JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid" id="projectsGrid" aria-live="polite">
+        <!-- project cards injected by JS -->
+      </section>
+    </main>
+
+    <footer class="site-footer no-print">
+      <div class="container">
+        <div class="footer-inner">
+          <p class="muted">This is a template page. Replace mock data in <code>script.js</code> with your real projects.</p>
+          <small class="muted">© Felipe Freitas Silva</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
