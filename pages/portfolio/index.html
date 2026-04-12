@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Accessible, keyboard-first portfolio by Felipe Freitas Silva." />
+	<title>Felipe Freitas Silva — Portfolio</title>
+	<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+	<a class="skip-link" href="#main">Skip to content</a>
+
+	<header>
+		<div class="container">
+			<h1 class="site-title">Felipe Freitas Silva</h1>
+			<p>
+				<a href="../cv/print.html">View résumé (print-friendly HTML)</a>
+				<small> — Optimized for browser printing and PDF export.</small>
+			</p>
+			<nav class="primary-nav">
+				<ul>
+					<li><a href="#welcome">Welcome</a></li>
+					<li><a href="#instructions">Instructions</a></li>
+					<li><a href="#accessibility">Accessibility</a></li>
+					<li><a href="#technology">Technology</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="main">
+		<section id="welcome">
+			<div class="container">
+				<h2 id="welcome-heading">Welcome</h2>
+				<p>
+					Hi — thanks for visiting. This portfolio is fully usable with a keyboard; a mouse or pointer device is not required. If you enjoy a different experience, keep your hands on the keyboard and navigate through the sections below. Mouse users are also welcome — nothing is blocked.
+				</p>
+				<p>
+					To begin, use the navigation above or read the short instructions next.
+				</p>
+				<p>
+					<a href="#instructions">Go to instructions</a>
+				</p>
+			</div>
+		</section>
+
+		<section id="instructions">
+			<div class="container">
+				<h2 id="instructions-heading">Instructions</h2>
+				<ul>
+					<li>Use Tab and Shift+Tab to move between links and controls.</li>
+					<li>Press Enter or Space to activate focused items.</li>
+					<li>Use the navigation links to jump to sections.</li>
+				</ul>
+				<p>
+					You can return here anytime using the navigation.
+				</p>
+			</div>
+		</section>
+
+		<section id="accessibility">
+			<div class="container">
+				<h2 id="accessibility-heading">Accessibility</h2>
+				<p>
+					Many people do not have a choice in how they interact with the web. For some, keyboard‑only navigation is not a preference — it is a necessity.
+				</p>
+				<p>
+					Native HTML elements are accessible by default when used correctly. Overengineering often introduces barriers that make sites harder to use.
+				</p>
+				<p>
+					This portfolio keeps things simple and focused on usability.
+				</p>
+			</div>
+		</section>
+
+		<section id="technology">
+			<div class="container">
+				<h2 id="technology-heading">Technology</h2>
+				<p>
+					HTML and CSS are the foundation of all web technologies. Frameworks and libraries build on and abstract these fundamentals.
+				</p>
+				<p>
+					Understanding and using native elements reduces unnecessary complexity. This choice improves maintainability and supports accessibility.
+				</p>
+				<p>
+					This site uses only the core web technologies — semantic HTML and CSS.
+				</p>
+				<p>JavaScript is intentionally omitted here to emphasize native browser behavior and progressive enhancement.</p>
+			</div>
+		</section>
+
+		<section id="skills">
+			<div class="container">
+				<h2 id="skills-heading">Skills</h2>
+				<table>
+					<thead>
+						<tr>
+							<th scope="col">Area</th>
+							<th scope="col">Tools</th>
+							<th scope="col">Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Frontend</th>
+							<td>HTML, CSS, TypeScript</td>
+							<td>Accessibility-first; semantic HTML</td>
+						</tr>
+						<tr>
+							<th scope="row">Backend</th>
+							<td>Node.js, FastAPI</td>
+							<td>REST APIs; testing with pytest</td>
+						</tr>
+						<tr>
+							<th scope="row">DevOps</th>
+							<td>Docker, GitHub Actions</td>
+							<td>CI/CD; containerized workflows</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<section id="projects">
+			<div class="container">
+				<h2 id="projects-heading">Projects</h2>
+				<ul class="project-list">
+					<li>
+						<details>
+							<summary>Juízes Rally — British Club</summary>
+							<p>
+								Mobile app to record rally event times quickly and reliably, calculating final scores and rankings.
+							</p>
+							<p><strong>Technologies:</strong> React Native, Expo, TypeScript, Firebase, Git</p>
+							<p>
+								<a href="https://apps.apple.com/br/app/ju%C3%ADzes-rally-british-club/id6502790506" target="_blank" rel="noopener">App Store</a>
+							</p>
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary>Globo Aplausos</summary>
+							<p>
+								Platform to foster positive feedback among employees using a monthly virtual currency, donations, and rewards.
+							</p>
+							<p><strong>Technologies:</strong> TypeScript, React, NestJS, MySQL, Prisma, Docker, AWS, Git</p>
+							<p>
+								<a href="https://www.ages.pucrs.br/lista-de-projetos-2023-1/globo-aplausos/" target="_blank" rel="noopener">Project page</a>
+							</p>
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary>Veículos via Montadora</summary>
+							<p>
+								Web system to structure and manage car data imported from PDFs, streamlining registration and updates.
+							</p>
+							<p><strong>Technologies:</strong> TypeScript, Styled Components, Python, FastAPI, Docker, Figma</p>
+							<p>
+								<a href="https://www.ages.pucrs.br/lista-de-projetos-2023-1/veiculos-via-montadora/" target="_blank" rel="noopener">Project page</a>
+							</p>
+						</details>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container">
+				<h2 id="contact-heading">Contact</h2>
+				<ul class="contact-list">
+					<li>
+						<a href="https://github.com/felipefreitassilva" target="_blank" rel="noopener">GitHub — felipefreitassilva</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/felipefreitassilva/" target="_blank" rel="noopener">LinkedIn — Felipe Freitas Silva</a>
+					</li>
+					<li>
+						<a href="mailto:work@felipefs.dev">Email — work@felipefs.dev</a>
+					</li>
+				</ul>
+
+				<h3>Contact form (HTML‑only demo)</h3>
+				<p>This form demonstrates native HTML semantics and validation. Submitting reloads the page without sending data to a server.</p>
+				<form action="#" method="post">
+					<fieldset>
+						<legend>Your details</legend>
+						<p>
+							<label for="name">Name</label>
+							<input id="name" name="name" type="text" required />
+						</p>
+						<p>
+							<label for="email">Email</label>
+							<input id="email" name="email" type="email" required />
+						</p>
+						<p>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" rows="4" required></textarea>
+						</p>
+						<p>
+							<button type="submit">Submit</button>
+						</p>
+					</fieldset>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container">
+			<p>Built with semantic HTML and CSS. Keyboard‑friendly.</p>
+		</div>
+	</footer>
+
+    
+</body>
+</html>
