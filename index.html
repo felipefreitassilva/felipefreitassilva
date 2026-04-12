@@ -1,101 +1,489 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			http-equiv="X-UA-Compatible"
-			content="IE=edge"
-		/>
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta
 			name="description"
-			content="Um pouco mais sobre mim."
+			content="Full-stack developer building practical web and mobile products with accessibility in mind."
+			data-i18n="meta.description"
 		/>
-		<link
-			rel="shortcut icon"
-			href="assets/images/perfil.jpg"
-			type="image/png"
-		>
-		<link
-			rel="stylesheet"
-			href="styles/index.css"
-		/>
-		<title>Felipe Freitas Silva</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="preload" as="image" href="assets/images/perfil.jpg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles/base.css" />
+		<link rel="stylesheet" href="styles/layout.css" />
+		<link rel="stylesheet" href="styles/components.css" />
+		<title data-i18n="meta.title">Felipe Freitas Silva | Portfolio</title>
 	</head>
 	<body>
-		<main id="landing">
-			<div class="img">
-				<img
-					src="assets/images/perfil.jpg"
-					alt="Profile Picture"
-				/>
-				<div class="title">
-					<h1>Hi!</h1>
-					<h2>
-						I'm Felipe, a
-						<br />
-						<span translate="no">&lt;WebDeveloper /></span>
-					</h2>
+		<div class="cursor-glow"></div>
+		<a class="skip-link" href="#main-content" data-i18n="skip.main"
+		>Skip to main content</a>
+		<header class="site-header">
+			<div class="container header-inner">
+				<a class="brand" href="#about" aria-label="Home">Felipe Freitas Silva</a>
+
+				<nav aria-label="Primary">
+					<ul class="nav-list">
+					<li><a href="#about" data-i18n="nav.about">About</a></li>
+					<li><a href="#work" data-i18n="nav.work">Work</a></li>
+					<li><a href="#timeline" data-i18n="nav.timeline">Experience</a></li>
+					<li><a href="#tech" data-i18n="nav.tech">Tech</a></li>
+					<li><a href="#archive" data-i18n="nav.archive">Archive</a></li>
+						<li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+					</ul>
+				</nav>
+
+				<div class="language-control">
+				<label for="lang-select" class="language-label sr-only" data-i18n="lang.label">Language</label>
+				<select id="lang-select" class="language-select mobile-only" aria-label="Change language">
+					<option value="en" data-i18n="lang.en">English</option>
+					<option value="pt" data-i18n="lang.pt">Português</option>
+					<option value="de" data-i18n="lang.de">Deutsch</option>
+					<option value="es" data-i18n="lang.es">Español</option>
+				</select>
+				<div class="language-switch desktop-only" role="group" aria-label="Language switch">
+						<button type="button" class="lang-btn" data-lang="en" aria-label="Switch to English">
+							<img src="assets/flags/us.svg" alt="" aria-hidden="true" />
+							<span class="lang-code" data-i18n="lang.en">EN</span>
+						</button>
+						<button type="button" class="lang-btn" data-lang="pt" aria-label="Switch to Portuguese">
+							<img src="assets/flags/br.svg" alt="" aria-hidden="true" />
+							<span class="lang-code" data-i18n="lang.pt">PT</span>
+						</button>
+						<button type="button" class="lang-btn" data-lang="de" aria-label="Switch to German">
+							<img src="assets/flags/de.svg" alt="" aria-hidden="true" />
+							<span class="lang-code" data-i18n="lang.de">DE</span>
+						</button>
+						<button type="button" class="lang-btn" data-lang="es" aria-label="Switch to Spanish">
+							<img src="assets/flags/es.svg" alt="" aria-hidden="true" />
+							<span class="lang-code" data-i18n="lang.es">ES</span>
+						</button>
+					</div>
 				</div>
 			</div>
-			<nav>
-				<ul>
-					<li><a href="pages/cv/index.html">
-						About me
-					</a></li>
-					<li><a
-						href="https://github.com/felipefreitassilva"
-						target="_blank"	
-					>
-						My Projects
-					</a></li>
-					<li><a
-						href="https://linkedin.com/in/felipefreitassilva"
-						target="_blank"	
-					>
-						Contact Me
-					</a></li>
-				</ul>
-				<div class="social">
-					<a
-						target="_blank"
-						href="https://linkedin.com/in/felipefreitassilva"
-						title="Linkedin"
-					>
+		</header>
+
+		<main id="main-content">
+			<section class="hero section" id="about" aria-labelledby="about-title">
+				<div class="container hero-grid">
+					<figure class="hero-image-wrap">
 						<img
-							src="assets/linkedinIcon.webp"
-							alt="Linkedin"
+							class="hero-image"
+							src="assets/images/perfil.webp"
+							alt="Portrait of Felipe Freitas Silva"
+							width="480"
+							height="480"
+							fetchpriority="high"
 						/>
+					</figure>
+          <div class="hero-content">
+					<div class="hero-greeting">
+				<button type="button" class="lang-shortcut" data-lang="en" aria-label="English" tabindex="-1">Hello</button>
+				<span class="greeting-separator">·</span>
+				<button type="button" class="lang-shortcut" data-lang="pt" aria-label="Português" tabindex="-1">Olá</button>
+				<span class="greeting-separator">·</span>
+				<button type="button" class="lang-shortcut" data-lang="de" aria-label="Deutsch" tabindex="-1">Hallo</button>
+				<span class="greeting-separator">·</span>
+				<button type="button" class="lang-shortcut" data-lang="es" aria-label="Español" tabindex="-1">Hola</button>
+				</div>
+					<h1 id="about-title" data-i18n="hero.title">Hi, I'm Felipe.</h1>
+					<p class="hero-hook" data-i18n="hero.hook">
+						I like solving real problems, keeping things simple, and iterating closely with the client - focusing on solutions first, not the tools
+					</p>
+					<p class="hero-personal" data-i18n="hero.personal">
+						Outside of the computer, you'll probably find me playing cards with my family, board games with friends or reading some fiction.
+						</p>
+						<ul class="cta-list" aria-label="Primary links">
+							<li>
+								<a id="cv-link" class="button button-primary" href="pages/cv/index.html" data-i18n="hero.cta.cv"
+									>Open CV</a
+								>
+							</li>
+							<li>
+								<a
+									class="button button-secondary"
+									href="https://github.com/felipefreitassilva"
+									target="_blank"
+									rel="noopener noreferrer"
+									><abbr title="github.com/felipefreitassilva" data-i18n="hero.cta.github">github.com/felipefreitassilva</abbr></a
+								>
+							</li>
+							<li>
+								<a
+									class="button button-secondary"
+									href="https://www.linkedin.com/in/felipefreitassilva/"
+									target="_blank"
+									rel="noopener noreferrer"
+									><abbr title="linkedin.com/in/felipefreitassilva" data-i18n="hero.cta.linkedin">linkedin.com/in/felipefreitassilva</abbr></a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section-projects" id="work" aria-labelledby="projects-title">
+				<div class="container">
+					<h2 id="projects-title" data-i18n="sections.work">Work</h2>
+					<p class="section-bridge" data-i18n="bridge.work">Some projects that reflect how I build - practical, used, and shaped by real constraints.</p>
+					<div class="project-grid">
+						<a href="https://apps.apple.com/br/app/ju%C3%ADzes-rally-british-club/id6502790506" target="_blank" rel="noopener noreferrer" class="project-card project-card-hero">
+							<article>
+								<p class="project-badge" data-i18n="project.hero.badge">Featured project</p>
+							<div class="project-image skeleton" data-image="hero">
+								<img src="assets/images/JuizesRallyBCPreview.webp" alt="Juizes Rally project preview" height="360" />
+								</div>
+								<h3 data-i18n="project.hero.title">Juizes Rally - British Club</h3>
+							<div class="card-content">
+								<p data-i18n="project.hero.fullDescription">
+									An app to assist rally judges from the British Club of Porto Alegre. First used in April 2024.
+								</p>
+								<div class="project-features">
+									<span class="label" data-i18n="project.hero.features.label">Key features</span>
+									<p data-i18n="project.hero.features">Real-time synchronization across judges | Works offline | Simple & intuitive</p>
+								</div>
+								<p class="project-detail">
+									<span class="label" data-i18n="project.hero.impact.label">Why it matters</span>
+									<span class="value" data-i18n="project.hero.impact.value"
+										>Built in React Native for efficient cross-platform development. Used in real events since launch, reducing the timing process from hours to minutes. Since then, it has been iterated and evolved significantly. It even spawned a companion web-based tool that allows judges to review and edit aggregated data from all judge apps in real-time, outputting CSV results with all timesteps and even auto-generating a PowerPoint presentation skeleton with final results (sadly, the code remains private).</span
+									>
+								</p>
+								<p class="project-detail">
+									<span class="label" data-i18n="project.hero.tech.label">Technologies</span>
+									<span class="value">React Native, Expo, TypeScript, Firebase</span>
+								</p>
+							</div>
+								<div class="project-link" data-i18n="project.hero.link">Open project</div>
+							</article>
+						</a>
+
+<a href="https://youtu.be/-Nb2b3D2egE?si=IXIBCp2lNJ7HeHX1&t=3828" target="_blank" rel="noopener noreferrer" class="project-card">
+						<article>
+						<div class="project-image skeleton" data-image="two">
+								<img src="assets/images/StarteePreview_PitchDayTecnopucGarage19Edicao.webp" alt="Startee project preview" height="360" />
+							</div>
+							<h3 data-i18n="project.two.title">Startee</h3>
+						<div class="card-content">
+							<p data-i18n="project.two.description">
+								An app that transforms ideas into businesses with AI-guided planning.
+							</p>
+							<p class="project-detail">
+								<span class="label" data-i18n="project.two.impact.label">Why it matters</span>
+								<span class="value" data-i18n="project.two.impact.value"
+									>Built with my brother in Tecnopuc Garage, this taught me how startups think differently about problems - balancing speed, user feedback, and business value in ways pure tech doesn't capture.</span
+								>
+							</p>
+							<p class="project-detail">
+								<span class="label" data-i18n="project.two.tech.label">Program</span>
+								<span class="value">Tecnopuc Garage (Sep 2025 - Jan 2026) - App temporarily offline</span>
+							</p>
+						</div>
+							<div class="project-link" data-i18n="project.two.link">View presentation</div>
+						</article>
 					</a>
-					<a
-						target="_blank"
-						href="https://github.com/felipefreitassilva"
-						title="Github"
-					>
-						<img
-							src="assets/githubIcon.webp"
-							alt="Github"
-						/>
-					</a>
-					<a
-						target="_blank"
-						href="mailto:letsmeet@felipefs.dev"
-						title="Email"
-					>
-						<img
-							src="assets/emailIcon.webp"
-							alt="Email"
-						/>
+
+					<a href="https://github.com/EngenhariaSoftwarePUCRS" target="_blank" rel="noopener noreferrer" class="project-card">
+						<article>
+							<div class="project-image skeleton" data-image="three">
+							<img src="assets/images/ESPUCRSPreview.webp" alt="EngenhariaSoftwarePUCRS project preview" height="360" />
+							</div>
+							<h3 data-i18n="project.three.title">EngenhariaSoftwarePUCRS</h3>
+						<div class="card-content">
+							<p><span data-i18n="project.three.prefix">My GitHub organization with materials from</span> <span class="indexed-day-wrapper" data-i18n="project.three.hint" data-i18n-attr="title"><span class="indexed-day" data-i18n="project.three.description">day zero until day -1</span></span>.</p>
+							<p class="project-detail">
+								<span class="label" data-i18n="project.three.impact.label">Why it matters</span>
+								<span class="value" data-i18n="project.three.impact.value"
+									>Demonstrates consistent organization from day one and a wide range of technologies explored throughout the degree program.</span
+								>
+							</p>
+							<p class="project-detail">
+								<span class="label" data-i18n="project.three.tech.label">Scope</span>
+								<span class="value">Full degree coursework & projects (2022 - 2026)</span>
+							</p>
+						</div>
+							<div class="project-link" data-i18n="project.three.link">Explore repository</div>
+						</article>
 					</a>
 				</div>
-			</nav>
-		</main>
-		<section id="about">
+			</div>
+			</section>
 
-		</section>
-	<script src="scripts/index.js"></script>
+			<section class="section section-timeline" id="timeline" aria-labelledby="timeline-title">
+				<div class="container">
+					<h2 id="timeline-title" data-i18n="sections.timeline">Experience</h2>
+					<p class="section-bridge" data-i18n="bridge.timeline">A quick look at how I got here - learning, building, and gradually taking on more responsibility.</p>
+					<div class="timeline-carousel">
+						<div class="timeline-toolbar">
+							<p class="timeline-hint" data-i18n="timeline.hint">Drag to explore</p>
+							<div class="timeline-controls" role="group" aria-label="Timeline navigation">
+								<button
+									type="button"
+									class="timeline-nav timeline-nav-prev"
+									data-timeline-nav="prev"
+									aria-label="Scroll timeline left"
+									data-i18n="timeline.nav.left"
+									data-i18n-attr="aria-label"
+								>
+									<span aria-hidden="true">←</span>
+								</button>
+								<button
+									type="button"
+									class="timeline-nav timeline-nav-next"
+									data-timeline-nav="next"
+									aria-label="Scroll timeline right"
+									data-i18n="timeline.nav.right"
+									data-i18n-attr="aria-label"
+								>
+									<span aria-hidden="true">→</span>
+								</button>
+							</div>
+						</div>
+						<div class="timeline-track-wrapper">
+							<div class="timeline-fade timeline-fade-left" aria-hidden="true"></div>
+							<div
+								class="timeline-track"
+								id="timeline-track"
+								tabindex="0"
+								aria-label="Timeline carousel"
+								data-i18n="timeline.track"
+								data-i18n-attr="aria-label"
+							>
+								<ol class="timeline-list">
+								<li class="timeline-item">
+									<h3 data-i18n="timeline.nelogica-se2.title">Software Engineer II - Nelogica</h3>
+									<p class="timeline-period" data-i18n="timeline.nelogica-se2.period">February 2026 - Present</p>
+									<p data-i18n="timeline.nelogica-se2.description">
+										Development of internal systems and client-facing interfaces with focus on Vue.js and TypeScript.
+									</p>
+								</li>
+								<li class="timeline-item">
+									<h3 data-i18n="timeline.nelogica-se1.title">Software Engineer I - Nelogica</h3>
+									<p class="timeline-period" data-i18n="timeline.nelogica-se1.period">October 2025 - January 2026</p>
+									<p data-i18n="timeline.nelogica-se1.description">
+										Developed components focusing on accessibility and security improvements across organization's products.
+									</p>
+								</li>
+								<li class="timeline-item">
+									<h3 data-i18n="timeline.exchange.title">Exchange Semester - University of Bonn (Germany)</h3>
+									<p class="timeline-period" data-i18n="timeline.exchange.period">March 2025 - July 2025</p>
+									<p data-i18n="timeline.exchange.description">
+										Studied informatics in an international environment and expanded both
+										technical and cross-cultural collaboration skills.
+									</p>
+								</li>
+								<li class="timeline-item">
+									<h3 data-i18n="timeline.hp.title">Junior Frontend Developer - Hewlett Packard (HP)</h3>
+									<p class="timeline-period" data-i18n="timeline.hp.period">September 2024 - March 2025</p>
+									<p data-i18n="timeline.hp.description">
+										Built and refined React UI flows for Instant Ink, fixing production
+										issues and improving accessibility with test-backed changes.
+									</p>
+								</li>
+								<li class="timeline-item">
+									<h3 data-i18n="timeline.lis.title">Software Innovation Lab (LIS) - Internship</h3>
+									<p class="timeline-period" data-i18n="timeline.lis.period">September 2023 - August 2024</p>
+									<p data-i18n="timeline.lis.description">
+										Worked across API, CLI, and frontend layers, including test strategy
+										and Dockerized development workflows.
+									</p>
+								</li>
+								<li class="timeline-item">
+									<h3 data-i18n="timeline.intermedia.title">Full Stack Contractor - Intermídia</h3>
+									<p class="timeline-period" data-i18n="timeline.intermedia.period">April 2023 - August 2023</p>
+									<p data-i18n="timeline.intermedia.description">
+										Improved user interfaces and optimized API and database queries for better performance.
+									</p>
+								</li>
+								<li class="timeline-item">
+									<h3 data-i18n="timeline.nutrorio.title">Full Stack Developer - Nutrório (Startup)</h3>
+									<p class="timeline-period" data-i18n="timeline.nutrorio.period">August 2022 - August 2023</p>
+									<p data-i18n="timeline.nutrorio.description">
+										Developed responsive frontend with React and TypeScript, built backend with Node.js and MongoDB, and maintained server and database infrastructure.
+									</p>
+								</li>
+								<li class="timeline-item">
+									<h3 data-i18n="timeline.education.title">BSc in Software Engineering - PUCRS</h3>
+									<p class="timeline-period" data-i18n="timeline.education.period">January 2022 - June 2026</p>
+									<p data-i18n="timeline.education.description">
+										Core degree focused on software engineering practices, team projects,
+										and product-oriented development.
+									</p>
+								</li>
+								<li class="timeline-item">
+									<h3 data-i18n="timeline.skyeng.title">Private English Teacher - Skyeng (now Osmi)</h3>
+									<p class="timeline-period" data-i18n="timeline.skyeng.period">November 2021 - June 2022</p>
+									<p data-i18n="timeline.skyeng.description">
+										Conducted one-on-one online English lessons for students of various ages, ethnicities, and proficiency levels.
+									</p>
+								</li>
+							</ol>
+							</div>
+							<div class="timeline-fade timeline-fade-right" aria-hidden="true"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section-tech" id="tech" aria-labelledby="tech-title">
+				<div class="container">
+					<h2 id="tech-title" data-i18n="sections.tech">Tech</h2>
+					<p class="section-bridge" data-i18n="tech.narrative">Technologies I rely on to keep things simple, maintainable, and fast to iterate.</p>
+					<div class="tech-grid">
+						<article class="tech-group tech-group--frontend">
+							<h3 data-i18n="tech.frontend.title">Frontend</h3>
+							<ul>
+								<li>TypeScript</li>
+								<li>React</li>
+								<li>Vue.js</li>
+								<li>SCSS / Tailwind CSS</li>
+							</ul>
+						</article>
+
+						<article class="tech-group tech-group--backend">
+							<h3 data-i18n="tech.backend.title">Backend</h3>
+							<ul>
+								<li>Node.js</li>
+								<li>SQL</li>
+								<li>Firebase</li>
+								<li>NestJS</li>
+							</ul>
+						</article>
+
+						<article class="tech-group tech-group--mobile">
+							<h3 data-i18n="tech.mobile.title">Mobile</h3>
+							<ul>
+								<li>React Native</li>
+								<li>Expo</li>
+								<li>Progressive Web Apps (PWA)</li>
+								<li>App Store / Play Store</li>
+							</ul>
+						</article>
+
+						<article class="tech-group tech-group--tools">
+							<h3 data-i18n="tech.tools.title">Tools</h3>
+							<ul>
+								<li>Git</li>
+								<li>GitHub</li>
+								<li>Figma</li>
+								<li>Docker</li>
+							</ul>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section-github" id="archive" aria-labelledby="github-title">
+				<div class="container">
+					<div class="section-heading">
+						<h2 id="github-title" data-i18n="sections.archive">Archive</h2>
+						<p data-i18n="sections.archive.subtitle">
+							A broader collection of work - from early experiments to more complete systems. Not everything is polished, but all of it taught me something.
+						</p>
+					</div>
+
+					<form class="repo-filters" aria-label="Repository filters">
+						<div class="filter-field">
+							<label for="filter-language" data-i18n="github.filters.language">Language</label>
+							<select id="filter-language" name="language">
+								<option value="all" data-i18n="github.filters.allLanguages">All languages</option>
+							</select>
+						</div>
+						<div class="filter-field">
+							<label for="filter-type" data-i18n="github.filters.type">Type</label>
+							<select id="filter-type" name="type">
+								<option value="all" data-i18n="github.filters.allTypes">All types</option>
+								<option value="web" data-i18n="github.filters.type.web">Web</option>
+								<option value="mobile" data-i18n="github.filters.type.mobile">Mobile</option>
+								<option value="other" data-i18n="github.filters.type.other">Other</option>
+							</select>
+						</div>
+					</form>
+
+					<div id="repos-grid" class="repo-grid" role="list" aria-live="polite"></div>
+					<p id="repos-status" class="repo-status" role="status" data-i18n="github.status.loading">
+						Loading projects...
+					</p>
+
+					<noscript>
+						<p data-i18n="github.noscript">
+							Enable JavaScript to load repository cards and filters.
+						</p>
+						<a
+							class="button button-secondary"
+							href="https://github.com/felipefreitassilva?tab=repositories"
+							target="_blank"
+							rel="noopener noreferrer"
+							data-i18n="github.noscript.link"
+							>Browse all repositories</a
+						>
+					</noscript>
+				</div>
+			</section>
+		</main>
+
+		<footer id="contact" class="site-footer">
+			<div class="container footer-inner">
+				<h2 data-i18n="sections.contact">Contact</h2>
+				<ul class="footer-links">
+					<li>
+						<a href="https://github.com/felipefreitassilva" target="_blank" rel="noopener noreferrer"><abbr title="github.com/felipefreitassilva" data-i18n="footer.contact.github">github.com/felipefreitassilva</abbr></a>
+					</li>
+					<li>
+						<a
+							href="https://www.linkedin.com/in/felipefreitassilva/"
+							target="_blank"
+							rel="noopener noreferrer"
+						><abbr title="linkedin.com/in/felipefreitassilva" data-i18n="footer.contact.linkedin">linkedin.com/in/felipefreitassilva</abbr></a>
+					</li>
+					<li><a id="email-link" href="mailto:work@felipefs.dev"><abbr title="work@felipefs.dev" data-i18n="footer.contact.email">work@felipefs.dev</abbr></a></li>
+				</ul>
+				<div class="footer-note">
+					<p data-i18n="footer.note.tech">No frameworks. Just HTML, CSS, and intentional JavaScript.</p>
+					<p data-i18n="footer.note.approach">Built with semantic markup, progressive enhancement, and accessibility by design.</p>
+					<p data-i18n="footer.note.iteration">Still learning, still shipping, still iterating.</p>
+				</div>
+				<p class="a11y-easter-egg" aria-live="polite" role="status">
+					Keyboard-friendly, by design.
+				</p>
+			</div>
+		</footer>
+
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				const images = document.querySelectorAll('.project-image img');
+				images.forEach(img => {
+					const container = img.parentElement;
+					
+					// Check if image is already loaded (cached)
+					if (img.complete) {
+						if (img.naturalHeight > 0) {
+							container.classList.remove('skeleton');
+						} else {
+							img.remove();
+							container.classList.remove('skeleton');
+						}
+					} else {
+						// Image is still loading
+						img.addEventListener('load', function() {
+							container.classList.remove('skeleton');
+						});
+						
+						img.addEventListener('error', function() {
+							img.remove();
+							container.classList.remove('skeleton');
+						});
+					}
+				});
+			});
+		</script>
+
+		<script src="scripts/i18n.js" defer></script>
+		<script src="scripts/repos.js" defer></script>
+		<script src="scripts/ui.js" defer></script>
 	</body>
 </html>

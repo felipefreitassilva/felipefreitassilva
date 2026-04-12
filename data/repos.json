@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Automatizando",
+    "description": "School project site for an Arduino and programming club.",
+    "url": "https://github.com/felipefreitassilva/Automatizando",
+    "language": "HTML",
+    "topics": ["education", "arduino", "community"],
+    "type": "other"
+  },
+  {
+    "name": "RallyBritishClubAPI",
+    "description": "API layer used to validate timing data and files for the rally app workflow.",
+    "url": "https://github.com/felipefreitassilva/RallyBritishClubAPI",
+    "language": "HTML",
+    "topics": ["mobile", "api", "timing", "event"],
+    "type": "mobile"
+  },
+  {
+    "name": "Startee_Web",
+    "description": "Landing website for an entrepreneurship-focused product idea.",
+    "url": "https://github.com/felipefreitassilva/Startee_Web",
+    "language": "HTML",
+    "topics": ["web", "landing-page", "startup"],
+    "type": "web"
+  },
+  {
+    "name": "CalculadoraFarroups",
+    "description": "Grade calculator with quick workflows for students.",
+    "url": "https://github.com/felipefreitassilva/CalculadoraFarroups",
+    "language": "JavaScript",
+    "topics": ["web", "calculator", "education"],
+    "type": "web"
+  },
+  {
+    "name": "Calculadora-Medias",
+    "description": "Simple grade average calculator with practical school use.",
+    "url": "https://github.com/felipefreitassilva/Calculadora-Medias",
+    "language": "PHP",
+    "topics": ["web", "php", "education"],
+    "type": "web"
+  },
+  {
+    "name": "Programat",
+    "description": "Math problem-solving site designed to teach programming logic.",
+    "url": "https://github.com/felipefreitassilva/Programat",
+    "language": "HTML",
+    "topics": ["web", "education", "math"],
+    "type": "web"
+  },
+  {
+    "name": "cardgame",
+    "description": "Simple turn-based Pokemon-inspired card game prototype.",
+    "url": "https://github.com/felipefreitassilva/cardgame",
+    "language": "Java",
+    "topics": ["game", "java", "prototype"],
+    "type": "other"
+  },
+  {
+    "name": "felipefreitassilva",
+    "description": "Profile repository with multilingual resume and project overview.",
+    "url": "https://github.com/felipefreitassilva/felipefreitassilva",
+    "language": "HTML",
+    "topics": ["portfolio", "profile", "web"],
+    "type": "web"
+  }
+]
