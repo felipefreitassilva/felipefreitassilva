@@ -34,6 +34,11 @@ div.title {
 	padding-top: 1rem;
 }
 
+.generalInfo p.availability {
+	font-size: 0.9rem;
+	margin: 0 0 10px;
+}
+
 ul.generalInfo img {
 	width: 30px;
 }

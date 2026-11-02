@@ -44,10 +44,19 @@
   padding-left: 20px;
 }
 
+.role + .role {
+  margin-top: 0.75rem;
+}
+
 p {
   text-align: justify;
 }
 
 .full-cv-note {
   font-size: 0.8rem;
+}
+
+.availability {
+  font-size: 0.8rem;
+  margin: 8px 0 0;
 }

@@ -1,3 +1,21 @@
+<!--
+  TODO (item 6 - GitHub identity). Not rewritten, per your call. Three structural changes, all deletions:
+
+  1. The devicon wall below. ~25 logos including Rust, Haskell, Go, C, C++ and Arduino.
+     Listing languages you touched once next to the ones you ship daily is the clearest
+     junior tell on this page, and it directly contradicts the CV's focused tech list.
+     Keep the handful you actually work in.
+
+  2. The github-readme-stats cards (commit counts / top languages). Same signal.
+     Top-languages is also actively misleading here: it measures repo bytes, so it
+     reports HTML for an API and says nothing about four years of production work.
+
+  3. The intro paragraph: "Iniciei meus estudos em 2020, durante o Ensino Médio" plus the
+     link to /felipefreitassilvalearning. Opening on high school and a "learning profile"
+     frames a Software Engineer II at a fintech as a student. Same item 3 decision as the CVs.
+
+  Apply the same three to lang/README.en.md, lang/README.de.md and lang/README.es.md.
+-->
 <div>
     <h1>Olá! Me chamo Felipe <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"/></h1>
     <p>Sou apaixonado por tecnologia, em todas as suas vertentes. Iniciei meus estudos em 2020, durante o Ensino Médio, e desde então estudei diversas linguagens e desenvolvi alguns projetos que podem ser vistos no <a href="https://github.com/felipefreitassilvalearning" target="_blank">meu perfil de aprendizado (/felipefreitassilvalearning)</a> e no <a href="https://github.com/engenhariasoftwarepucrs" target="_blank">meu perfil universitário (/EngenhariaSoftwarePUCRS)</a>, ambos aqui no Github. Dentre as diversas linguagens por que passei, seja em cursos onlines, projetos pessoais ou durante minhas aulas de Engenharia de Software na <a href="https://www.pucrs.br/politecnica/curso/engenharia-de-software/" target="_blank">PUCRS</a>, desenvolvi um grande apreço por Typescript, seja para desenvolvimento Mobile, Web ou de back-end.
