@@ -45,7 +45,7 @@
     "project.hero.features": "Real-time synchronization across judges | Works offline | Simple & intuitive",
     "project.hero.description": "A mobile app built for rally judges to register race times with one tap, even under event pressure.",
     "project.hero.impact.label": "Why it matters",
-    "project.hero.impact.value": "Built in React Native for efficient cross-platform development. Used in real events since launch, reducing the timing process from hours to minutes. Since then, it has been iterated and evolved significantly. It even spawned a companion web-based tool that allows judges to review and edit aggregated data from all judge apps in real-time, outputting CSV results with all timesteps and even auto-generating a PowerPoint presentation skeleton with final results (sadly, the code remains private).",
+    "project.hero.impact.value": "Synchronising the judges' stopwatches used to be its own event, held before the rally so that every watch started together; a second of drift was a second of error in the results. The app replaced that with one shared clock, and a companion web tool turned the organisers' evening of paperwork into a live standings view, a CSV export of every timestep, and a generated results deck. Three editions so far, with up to ten judges, two to five organisers and around thirty cars - a hundred or so people involved each time.",
     "project.hero.tech.label": "Technologies",
     "project.hero.link": "Open project",
     "project.two.title": "Startee",
