@@ -72,7 +72,7 @@ const translation_pt = {
   bachelorDegree: " - Engenharia de Software",
   bachelorPeriod: "Janeiro 2022 - Atual",
   bachelorNote: "Com certificação adicional em Jogos e Entretenimento Digital.",
-  fullCvNote: "O currículo com todo histórico, projetos e experiência completa está disponível no meu site: ",
+  fullCvNote: "Cargos anteriores e o histórico completo de projetos: ",
   compactCvNote: "Uma versão compacta, de uma página, deste currículo está disponível em: ",
   references: "Referências (ícones)",
 }

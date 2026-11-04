@@ -72,7 +72,7 @@ const translation_de = {
   bachelorDegree: " - Software-Engineering",
   bachelorPeriod: "Januar 2022 - Aktuell",
   bachelorNote: "Mit zusätzlicher Zertifizierung in Spielen und digitaler Unterhaltung.",
-  fullCvNote: "Der vollständige Lebenslauf mit kompletter Historie, Projekten und Erfahrungen ist auf meiner Webseite verfügbar: ",
+  fullCvNote: "Frühere Positionen und die vollständige Projekthistorie: ",
   compactCvNote: "Eine kompakte, einseitige Version dieses Lebenslaufs ist verfügbar unter: ",
   references: "Profile (Icons)",
 }

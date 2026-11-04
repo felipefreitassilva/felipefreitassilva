@@ -11,7 +11,7 @@ const translation_en = {
   location: "Porto Alegre, Brazil",
   email: "work@felipefs.dev",
   aboutTitle: "About Me",
-  intro: "Full-stack engineer with five years of production experience, most of it on the frontend, across web and mobile. I care about problems more than tools: what I reach for depends on what needs solving. I graduated first in my Software Engineering class at PUCRS while working through most of the degree, including an exchange semester in Germany. I am used to distributed teams across time zones, and I write things down so other people can act on them without waiting for me.",
+  intro: "Full-stack engineer with five years in production, mostly frontend, across web and mobile. I care about problems more than tools: what I reach for depends on what needs solving. First in my Software Engineering class at PUCRS, earned while working through most of the degree and an exchange semester in Germany. Used to distributed teams across time zones, and to writing things down so others can act without waiting for me.",
   intro1: "I am a developer passionate about learning new languages - computer related or not. I am always looking for new problems to solve and opportunities to improve my skills and knowledge. In my free time, I enjoy playing games with friends and family, reading fiction, and, of course, programming.",
   intro2a: "I hold a bachelor's degree in Software Engineering from PUCRS, where I graduated first in my class while working through most of the degree, and which included an exchange semester at the ",
   intro2b: "University of Bonn",
@@ -75,7 +75,7 @@ const translation_en = {
   bachelorDegree: " - Software Engineering",
   bachelorPeriod: "January 2022 - July 2026",
   bachelorNote: "With additional certification on Games and Digital Entertainment.",
-  fullCvNote: "Full CV with complete history, projects, and experience is available on my web page: ",
+  fullCvNote: "Earlier roles and the full project history: ",
   compactCvNote: "A compact, one-page version of this resume is available at: ",
   references: "References (icons)",
 }
