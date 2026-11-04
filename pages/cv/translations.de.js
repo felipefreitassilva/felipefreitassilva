@@ -42,7 +42,7 @@ const translation_de = {
   skyengWorkPeriod: "November 2021 - Juni 2022",
   skyengWorkDescription: "Ich arbeitete ein Semester lang als Privatlehrer für Englisch und gab Online-Einzelunterricht in Englisch für Schüler unterschiedlichen Alters, unterschiedlicher Ethnien und unterschiedlicher Sprachkenntnisse.",
   projectsHeader: "Projekte",
-  projectsTitle: "Veröffentlichte Projekte",
+  projectsTitle: "Hauptprojekt",
   projectDescriptionCompact: "React Native Mobile App für das jährliche Rallye-Event des British Club in Porto Alegre, die es den Richtern ermöglicht, Renndaten offline und in Echtzeit zu verwalten. Es wurde von über 20 Richtern bei mehreren Ausgaben der Veranstaltung genutzt und im App Store und im Play Store veröffentlicht.",
   juizesProjectTitle: "Juízes Rally - British Club",
   juizesProjectDescription1: "Juízes Rally ist eine mobile App, die für den British Club in Porto Alegre, Brasilien, entwickelt wurde, um den Prozess der Registrierung der Teilnehmerzeiten während Rallye-Veranstaltungen zu vereinfachen. Traditionell manuell durchgeführt, vereinfacht die App diesen Prozess, indem sie es den Richtern ermöglicht, Zeiten mit einem einzigen Klick zu erfassen und automatisch die Endzeiten und Platzierungen zu berechnen. Die App wurde mit React Native entwickelt, im App Store veröffentlicht und in einer Beta-Version im Google Play Store getestet, wobei sie positives Feedback von über 15 Nutzern erhielt. Obwohl es sich um ein kleineres Projekt handelt, hat es sich als wertvoll erwiesen und wurde basierend auf konstruktivem Feedback weiterentwickelt, um seine Funktionalität zu verbessern. Es wurde bereits bei mehreren Veranstaltungen eingesetzt.",

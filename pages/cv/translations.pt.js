@@ -42,7 +42,7 @@ const translation_pt = {
   skyengWorkPeriod: "Novembro 2021 - Junho 2022",
   skyengWorkDescription: "Trabalhei como professor particular de inglês por um semestre, ministrando aulas online individuais de inglês para alunos de várias idades, etnias e níveis de proficiência.",
   projectsHeader: "Projetos",
-  projectsTitle: "Projetos Publicados",
+  projectsTitle: "Projeto em Destaque",
   projectDescriptionCompact: "App em React Native para o evento anual de rally do British Club de Porto Alegre, que permite aos juízes gerenciar dados da corrida offline e em tempo real. Foi utilizado por mais de 20 juízes em múltiplas edições do evento e publicado na App Store e na Play Store.",
   juizesProjectTitle: "Juízes Rally - British Club",
   juizesProjectDescription1: "Juízes Rally é um aplicativo móvel desenvolvido para o British Club em Porto Alegre, Brasil, com o objetivo de agilizar o processo de registro dos tempos dos participantes durante eventos de rally. Tradicionalmente feito manualmente, o aplicativo simplifica esse processo permitindo que os juízes registrem os tempos com um único clique, calculando automaticamente os tempos finais e as classificações. Construído com React Native, o aplicativo foi publicado na App Store e testado em versão beta no Google Play, recebendo feedback positivo de mais de 15 usuários. Apesar de ser um projeto menor, mostrou-se valioso, passando por iterações baseadas em feedback construtivo para aprimorar sua funcionalidade e tem sido utilizado em várias edições do evento.",

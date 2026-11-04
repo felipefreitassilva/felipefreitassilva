@@ -47,7 +47,7 @@ const translation_en = {
   skyengWorkTitle: "Private English Teacher - Skyeng (now Osmi)",
   skyengWorkPeriod: "November 2021 - June 2022",
   skyengWorkDescription: "I worked as a private English teacher for a semester, conducting one-on-one online English lessons for students of various ages, ethnicities and proficiency levels.",
-  projectsTitle: "Published Projects",
+  projectsTitle: "Featured Project",
   projectsHeader: "Projects",
   projectDescriptionCompact: "Mobile app for the British Club of Porto Alegre's annual rally. Synchronising the judges' stopwatches used to be its own event; the app replaced that with one shared clock, works offline where the course has no signal, and feeds a companion web tool that turns every judge's times into live standings, a CSV export and the results deck. Three editions so far, published on the App Store and Google Play.",
   juizesProjectTitle: "Juízes Rally - British Club",
