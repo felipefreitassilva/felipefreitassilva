@@ -38,6 +38,18 @@ ul {
   a {
     text-decoration: none;
   }
+
+  /* The cross-version links are the only ones a reader must be able to
+     act on from paper or a PDF, so keep them visibly link-like. */
+  .full-cv-note a,
+  .compact-cv-note a {
+    text-decoration: underline;
+  }
+}
+
+.full-cv-note,
+.compact-cv-note {
+  break-inside: avoid;
 }
 
 header {
