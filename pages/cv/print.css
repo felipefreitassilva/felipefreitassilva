@@ -63,6 +63,12 @@ p {
   text-align: left;
 }
 
+.earlier-roles {
+  font-size: 0.8rem;
+  margin: 0.75rem 0 0;
+  text-align: left;
+}
+
 /* Education sits in the left column and is reference material, not a
    selling point - keep it compact so the right column keeps the space. */
 .education h2 {
