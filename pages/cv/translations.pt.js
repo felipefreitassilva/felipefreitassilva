@@ -27,7 +27,7 @@ const translation_pt = {
   workExperienceHeader: "Experiência Profissional",
   earlierRoles: "Antes, trabalho de backend e full stack: Laboratório de Inovação em Software (Python, FastAPI, SQLAlchemy), Intermídia (C#, .NET, SQL Server) e Nutrório (Node.js, MongoDB).",
   workDescriptionCompact: "Desenvolvedor frontend para o projeto Instant Ink da HP, contribuindo para melhorias na interface do usuário, construção de componentes acessíveis em React, correção de bugs e garantia de usabilidade por meio de testes automatizados.",
-  hpWorkTitle: "Desenvolvedor Frontend Júnior - Hewlett Packard (HP)",
+  hpWorkTitle: "Desenvolvedor de Software Júnior - Hewlett Packard (HP)",
   hpWorkPeriod: "Setembro 2024 - Março 2025",
   hpWorkDescription: "Atuei como desenvolvedor Frontend no projeto Instant Ink da HP, onde contribuí para aprimorar a interface com os usuários e melhorar a experiência geral do sistema. Minhas responsabilidades incluíram a implementação de novas funcionalidades e componentes em React, identificação e correção de bugs, além de garantir que a aplicação fosse responsiva e acessível, por exemplo, através de testes com Cypress.",
   lisWorkTitle: "Estagiário - Laboratório de Inovação em Software (LIS)",
