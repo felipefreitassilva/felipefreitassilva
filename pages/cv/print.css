@@ -49,6 +49,16 @@
   padding-left: 20px;
 }
 
+/* Per-entry technology lines are kept in English only. Portuguese, German and
+   Spanish all run longer than English for the same content and were spilling
+   onto a second page; these lines are the most expendable, since the headline
+   technologies already appear in the Technologies list and the earlier-roles
+   line. The full CV keeps them in every language.
+   translations.js sets documentElement.lang on every switch (pt -> pt-br). */
+html:not([lang="en"]) .role-stack {
+  display: none;
+}
+
 .role + .role {
   margin-top: 0.75rem;
 }
