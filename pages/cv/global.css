@@ -45,6 +45,10 @@ ul {
   .compact-cv-note a {
     text-decoration: underline;
   }
+
+  h1, h2, h3, h4, h5 {
+    break-after: avoid;
+  }
 }
 
 .full-cv-note,
